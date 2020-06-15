@@ -1,0 +1,43 @@
+2020-06-15 22:52:31,512 [main] INFO HealthGraph - *****Launching browser******
+2020-06-15 22:52:31,791 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-15 22:52:33,257 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-15 22:52:33,270 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-15 22:52:34,012 [main] INFO HealthGraph - *****click on Add button******
+2020-06-15 22:52:34,629 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-15 22:52:34,906 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-15 22:52:34,944 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-15 22:52:35,321 [main] INFO HealthGraph - *****User entered mandatory fields such as First name and Mob no******
+2020-06-15 22:52:35,490 [main] INFO HealthGraph - *****User successfully created one appointment by entering mandatory fields******
+2020-06-15 22:52:43,614 [main] INFO HealthGraph - *****Launching browser******
+2020-06-15 22:52:43,906 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-15 22:52:45,221 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-15 22:52:45,230 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-15 22:52:45,963 [main] INFO HealthGraph - *****click on Add button******
+2020-06-15 22:52:46,609 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-15 22:52:53,224 [main] INFO HealthGraph - *******User sucessfully create an appointment by entering all fields under Patient details tab********
+2020-06-15 22:52:53,390 [main] INFO HealthGraph - *****User successfully created one appointment by entering mandatory fields******
+2020-06-15 22:53:01,616 [main] INFO HealthGraph - *****Launching browser******
+2020-06-15 22:53:01,876 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-15 22:53:03,277 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-15 22:53:03,285 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-15 22:53:03,962 [main] INFO HealthGraph - *****click on Add button******
+2020-06-15 22:53:04,582 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-15 22:53:04,937 [main] INFO HealthGraph - *****User entered mandatory fields such as First name and Mob no******
+2020-06-15 22:53:04,967 [main] INFO HealthGraph - *******User clicks in Other Details********
+2020-06-15 22:53:05,017 [main] INFO HealthGraph - *******User selected blood group********
+2020-06-15 22:53:05,055 [main] INFO HealthGraph - *******User selected Maritial status********
+2020-06-15 22:53:05,375 [main] INFO HealthGraph - *******User filled emergency Name and Contact number********
+2020-06-15 22:53:05,410 [main] INFO HealthGraph - *******User selected Special status********
+2020-06-15 22:56:37,105 [main] INFO HealthGraph - *****Launching browser******
+2020-06-15 22:56:37,353 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-15 22:56:38,926 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-15 22:56:38,937 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-15 22:56:39,662 [main] INFO HealthGraph - *****click on Add button******
+2020-06-15 22:56:40,395 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-15 22:56:40,808 [main] INFO HealthGraph - *****User entered mandatory fields such as First name and Mob no******
+2020-06-15 22:56:40,854 [main] INFO HealthGraph - *******User clicks in Other Details********
+2020-06-15 22:56:40,891 [main] INFO HealthGraph - *******User selected blood group********
+2020-06-15 22:56:40,958 [main] INFO HealthGraph - *******User selected Maritial status********
+2020-06-15 22:56:41,334 [main] INFO HealthGraph - *******User filled emergency Name and Contact number********
+2020-06-15 22:56:41,377 [main] INFO HealthGraph - *******User selected Special status********
+2020-06-15 22:56:41,674 [main] INFO HealthGraph - *****User successfully created one appointment by entering mandatory fields******

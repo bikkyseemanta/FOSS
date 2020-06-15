@@ -1,0 +1,43 @@
+2020-06-15 22:52:31,512 - HealthGraph -INFO - *****Launching browser******
+2020-06-15 22:52:31,791 - HealthGraph -INFO - *****Successfully Entered Username and Password******
+2020-06-15 22:52:33,257 - HealthGraph -INFO - *****Logged in Successfully******
+2020-06-15 22:52:33,270 - HealthGraph -INFO - *****User landed on OPD Home Page******
+2020-06-15 22:52:34,012 - HealthGraph -INFO - *****click on Add button******
+2020-06-15 22:52:34,629 - HealthGraph -INFO - *****click on Add New Patient button******
+2020-06-15 22:52:34,906 - HealthGraph -INFO - *****Without filling mandatory field clicking on Appointment button******
+2020-06-15 22:52:34,944 - HealthGraph -INFO - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-15 22:52:35,321 - HealthGraph -INFO - *****User entered mandatory fields such as First name and Mob no******
+2020-06-15 22:52:35,490 - HealthGraph -INFO - *****User successfully created one appointment by entering mandatory fields******
+2020-06-15 22:52:43,614 - HealthGraph -INFO - *****Launching browser******
+2020-06-15 22:52:43,906 - HealthGraph -INFO - *****Successfully Entered Username and Password******
+2020-06-15 22:52:45,221 - HealthGraph -INFO - *****Logged in Successfully******
+2020-06-15 22:52:45,230 - HealthGraph -INFO - *****User landed on OPD Home Page******
+2020-06-15 22:52:45,963 - HealthGraph -INFO - *****click on Add button******
+2020-06-15 22:52:46,609 - HealthGraph -INFO - *****click on Add New Patient button******
+2020-06-15 22:52:53,224 - HealthGraph -INFO - *******User sucessfully create an appointment by entering all fields under Patient details tab********
+2020-06-15 22:52:53,390 - HealthGraph -INFO - *****User successfully created one appointment by entering mandatory fields******
+2020-06-15 22:53:01,616 - HealthGraph -INFO - *****Launching browser******
+2020-06-15 22:53:01,876 - HealthGraph -INFO - *****Successfully Entered Username and Password******
+2020-06-15 22:53:03,277 - HealthGraph -INFO - *****Logged in Successfully******
+2020-06-15 22:53:03,285 - HealthGraph -INFO - *****User landed on OPD Home Page******
+2020-06-15 22:53:03,962 - HealthGraph -INFO - *****click on Add button******
+2020-06-15 22:53:04,582 - HealthGraph -INFO - *****click on Add New Patient button******
+2020-06-15 22:53:04,937 - HealthGraph -INFO - *****User entered mandatory fields such as First name and Mob no******
+2020-06-15 22:53:04,967 - HealthGraph -INFO - *******User clicks in Other Details********
+2020-06-15 22:53:05,017 - HealthGraph -INFO - *******User selected blood group********
+2020-06-15 22:53:05,055 - HealthGraph -INFO - *******User selected Maritial status********
+2020-06-15 22:53:05,375 - HealthGraph -INFO - *******User filled emergency Name and Contact number********
+2020-06-15 22:53:05,410 - HealthGraph -INFO - *******User selected Special status********
+2020-06-15 22:56:37,105 - HealthGraph -INFO - *****Launching browser******
+2020-06-15 22:56:37,353 - HealthGraph -INFO - *****Successfully Entered Username and Password******
+2020-06-15 22:56:38,926 - HealthGraph -INFO - *****Logged in Successfully******
+2020-06-15 22:56:38,937 - HealthGraph -INFO - *****User landed on OPD Home Page******
+2020-06-15 22:56:39,662 - HealthGraph -INFO - *****click on Add button******
+2020-06-15 22:56:40,395 - HealthGraph -INFO - *****click on Add New Patient button******
+2020-06-15 22:56:40,808 - HealthGraph -INFO - *****User entered mandatory fields such as First name and Mob no******
+2020-06-15 22:56:40,854 - HealthGraph -INFO - *******User clicks in Other Details********
+2020-06-15 22:56:40,891 - HealthGraph -INFO - *******User selected blood group********
+2020-06-15 22:56:40,958 - HealthGraph -INFO - *******User selected Maritial status********
+2020-06-15 22:56:41,334 - HealthGraph -INFO - *******User filled emergency Name and Contact number********
+2020-06-15 22:56:41,377 - HealthGraph -INFO - *******User selected Special status********
+2020-06-15 22:56:41,674 - HealthGraph -INFO - *****User successfully created one appointment by entering mandatory fields******
