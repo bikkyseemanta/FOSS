@@ -2,7 +2,7 @@ package pageObjects;
 
 import java.util.List;
 
-
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,11 +10,12 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.cucumber.listener.Reporter;
 
 import commonMethod.Common_Methods;
-import junit.framework.Assert;
+import cucumber.api.DataTable;
 
 public class AddPatientDetails extends Common_Methods
 {
@@ -147,8 +148,6 @@ public class AddPatientDetails extends Common_Methods
 	@CacheLookup
 	WebElement clicksecondarylang;
 
-
-
 	@FindBy(xpath="//input[@placeholder='Pincode']")
 	@CacheLookup
 	WebElement PinCodeField;
@@ -157,11 +156,9 @@ public class AddPatientDetails extends Common_Methods
 	@CacheLookup
 	WebElement Add1;
 
-
 	@FindBy(xpath="//input[@placeholder='Address 2']")
 	@CacheLookup
 	WebElement Add2;
-
 
 	@FindBy(xpath="//input[@placeholder='Medical Record No.']")
 	@CacheLookup
@@ -232,7 +229,6 @@ public class AddPatientDetails extends Common_Methods
 		expwait("//*[@placeholder='First Name']");
 	}
 
-
 	public void fillFirstName(String fname)
 	{
 		firstname.sendKeys(fname);
@@ -242,7 +238,6 @@ public class AddPatientDetails extends Common_Methods
 	{
 		mobno.sendKeys(mobNo);
 	}
-
 
 	public void clickappointmentbtn()
 	{
@@ -284,7 +279,6 @@ public class AddPatientDetails extends Common_Methods
 		secondaryinput.sendKeys(secondarylanguage);
 		clicksecondarylang.click();
 	}
-
 
 	public void fillPincode(String pin) throws Exception
 	{
@@ -328,7 +322,6 @@ public class AddPatientDetails extends Common_Methods
 		clickonpatientref.click();
 		refinput.sendKeys(Ref);
 		ref.click();
-
 	}
 
 	public void click_Other_Details()
@@ -367,28 +360,134 @@ public class AddPatientDetails extends Common_Methods
 	@FindBy(xpath="//*[@name='patient[emergencycontactname]']")
 	@CacheLookup
 	WebElement emergncyname;
-	
+
 	public void fillEmrgncyName(String ename)
 	{
 		emergncyname.sendKeys(ename);
 	} 
-	
+
 	@FindBy(xpath="//*[@name='patient[emergencymobilenumber]']")
 	@CacheLookup
 	WebElement emergncycnct;
-	
+
 	public void fillEmrgncyCnct(String ecnct)
 	{
 		emergncycnct.sendKeys(ecnct);
 	} 
-	
+
 	@FindBy(xpath="//*[@input-value='Breastfeeding']")
 	@CacheLookup
 	WebElement Spstatus;
-	
+
 	public void selectSpecstatus()
 	{
 		clickElementByElement(Spstatus);
+	}
+
+	@FindBy(xpath="//a[text()='History']")
+	@CacheLookup
+	WebElement history;
+
+	public void clickHistory()
+	{
+		clickElementByElement(history);
+	}
+
+	@FindBy(how = How.XPATH, using = "//*[@name='speciality_histories']")
+	@CacheLookup
+	public List<WebElement> opthalHistoryTab;
+
+	@FindBy(how = How.XPATH, using = "//*[@name='personal_histories']")
+	@CacheLookup
+	public List<WebElement> systemicHistoryTab;
+
+	@FindBy(how = How.XPATH, using = "//*[@name='drug_allergies']")
+	@CacheLookup
+	public List<WebElement> drugAllergiesTab;
+
+	@FindBy(how = How.XPATH, using = "//*[@name='contact_allergies']")
+	@CacheLookup
+	public List<WebElement> contactAllergiesTab;
+
+	@FindBy(how = How.XPATH, using = "//*[@name='food_allergies']")
+	@CacheLookup
+	public List<WebElement> foodAllergiesTab;
+	
+	
+	@FindBy(how = How.XPATH, using = "//*[@name='antimicrobial_agents']")
+	@CacheLookup
+	public List<WebElement> antimicrobialagent;
+	
+	@FindBy(how = How.XPATH, using = "//*[@name='antifungal_agents']")
+	@CacheLookup
+	public List<WebElement> antifungalagent;
+	
+	@FindBy(how = How.XPATH, using = "//*[@name='antiviral_agents']")
+	@CacheLookup
+	public List<WebElement> antiviralagent;
+	
+	@FindBy(how = How.XPATH, using = "//*[@name='nsaids']")
+	@CacheLookup
+	public List<WebElement> nsaids;
+	
+	
+	@FindBy(how = How.XPATH, using = "//*[@name='eye_drops']")
+	@CacheLookup
+	public List<WebElement> eyedrops;
+	
+
+	@FindBy(xpath="//*[text()='Allergies']")
+	@CacheLookup
+	WebElement allergies;
+
+	public void clickAllergies()
+	{
+		clickElementByElement(allergies);
+	}
+
+	@FindBy(how = How.ID, using = "antimicrobial_agents")
+	@CacheLookup
+	public WebElement antimicrobialagents;
+
+	public void clickAntimicrobialagents()
+	{
+		clickElementByElement(antimicrobialagents);
+	}
+
+	@FindBy(how = How.ID, using = "antifungal_agents")
+	@CacheLookup
+	public WebElement antifungalagents;
+
+	public void clickAntifungalagents()
+	{
+		clickElementByElement(antifungalagents);
+	}
+
+	@FindBy(how = How.ID, using = "antiviral_agents")
+	@CacheLookup
+	public WebElement antiviralagents;
+
+	public void clickantiviralagents()
+	{
+		clickElementByElement(antiviralagents);
+	}
+
+	@FindBy(how = How.ID, using = "nsaids")
+	@CacheLookup
+	public WebElement Nsaids;
+
+	public void clicknsaids()
+	{
+		clickElementByElement(Nsaids);
+	}
+	
+	@FindBy(how = How.ID, using = "eye_drops")
+	@CacheLookup
+	public WebElement eyedrop;
+
+	public void clickEyedrops()
+	{
+		clickElementByElement(eyedrop);
 	}
 }
 
