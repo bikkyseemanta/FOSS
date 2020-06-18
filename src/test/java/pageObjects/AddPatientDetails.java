@@ -489,6 +489,10 @@ public class AddPatientDetails extends Common_Methods
 	{
 		clickElementByElement(eyedrop);
 	}
+	
+	@FindBy(how = How.XPATH, using = "((//*[@class='row'])[7]/..//div)[5]/div")
+	@CacheLookup
+	public List<WebElement> patientsetting;
 }
 
 

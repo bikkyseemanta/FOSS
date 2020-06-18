@@ -16,6 +16,9 @@ And Modal must have below mentioned tabs
 When user without filling mandatory field and click on Appointment button
 Then validate warning message should display 
 When user fill mandatory fields "<fname>" "<mobNo>"
+And validate the size and text of the name drop down values 
+And validate the size and text of laungage drop down values
+And validate the size and text of the patient type drop down values
 Then user can create Appointment
 
 Examples:
@@ -75,6 +78,7 @@ And Opthalmic History have below tabs
  |Eye Surgery|
  |Uveitis|
  |Retinal laser|
+Then add comments inside Opthalmic Hitory
 And Systemic History have below tabs
  | Diabetes |
  | Hypertension |
@@ -98,6 +102,9 @@ And Systemic History have below tabs
  |Consanguinity|
  |Thyroid Disorder|
  |Chewing Tobacco|
+Then add comments inside Systemic Hitory
+And add Medical History
+Then add Family history 
 Examples:
 |uname     |pswd        |fname    |mobNo     | name   | number |
 |hgdummyrec| HGraph@2$2$|Bikky    |4678907665| Pallabi|8987511234|
@@ -189,6 +196,42 @@ And Drug Allergies have below tabs
  |Soy Protein |
  |Lactose |
  |Mushroom|
+ 
+ Then validate each tabs of Antimicrobial agents
+ Then each Antimicrobial agents name should be display
+ And select Duration for each Antimicrobial agents
+ And select Duration Units for each Antimicrobial agents
+ And fill comments for each Antimicrobial agents
+Then validate each tabs of Antifungal agents
+ Then each Antifungal agents name should be display
+ And select Duration for each Antifungal agents
+ And select Duration Units for each Antifungal agents
+ And fill comments for each Antifungal agents
+Then validate each tabs of Antiviral Agents
+ Then each Antiviral Agents name should be display
+ And select Duration for each Antiviral Agents
+ And select Duration Units for each Antiviral Agents
+ And fill comments for each Antiviral Agents
+Then validate each tabs of Nsaids
+ Then each Nsaids name should be display
+ And select Duration for each Nsaids
+ And select Duration Units for each Nsaids
+ And fill comments for each Nsaids
+ Then validate each tabs of Eye Drops
+ Then each Eye Drops name should be display
+ And select Duration for each Eye Drops
+ And select Duration Units for each Eye Drops
+ And fill comments for each Eye Drops
+ Then validate each tabs of Contact Allergies
+ #Then each Contact Allergies name should be display
+ #And select Duration for each Contact Allergies
+ #And select Duration Units for each Contact Allergies
+ #And fill comments for each Contact Allergies
+ #Then validate each tabs of Food Allergies
+ #Then each Food Allergies name should be display
+ #And select Duration for each Food Allergies
+ #And select Duration Units for each Food Allergies
+ #And fill comments for each Food Allergies
 
  Examples:
 |uname     |pswd        |fname    |mobNo     |
