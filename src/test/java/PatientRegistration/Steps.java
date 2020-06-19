@@ -21,6 +21,9 @@ import pageObjects.LoginPage;
 public class Steps extends Common_Methods
 
 {
+
+	// Verify login with invalid credentials//
+
 	@Given("^open the browser and enter the URL \"([^\"]*)\"$")
 	public void open_the_browser_and_enter_the_URL(String url) throws Throwable
 	{   
@@ -30,9 +33,44 @@ public class Steps extends Common_Methods
 		lp=new LoginPage(driver);
 		logger.info("*****Launching browser******");
 	}
+	
+	
+	@When("^user fills invalid \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void user_fills_invalid_and(String arg1, String arg2) throws Throwable {
+
+		lp.fillusername(arg1);
+		lp.fillpassword(arg2);
+		logger.info("*****User entered invalid credentials******");
+	}
+
+	@Then("^validation error message should display on UI$")
+	public void validation_error_message_should_display_on_UI() throws Throwable {
+		try {
+			if(driver.findElement(By.xpath("//*[text()='Invalid Username/Password']")).isDisplayed())
+			{
+				logger.info("*****The validation message is displaying when user filling invalid user name and password and click on log in button******");
+
+			}}
+		catch(StaleElementReferenceException e)
+		{
+			logger.info("*****The validation message is not displaying when user filling invalid user name and password and click on log in button******");
+
+		}
+	}
+
+	/*@Then("^user log out from application$")
+	public void user_log_out_from_application() throws Throwable 
+	{
+		normalWait(1000);
+		driver.findElement(By.xpath("//*[@href='/users/logout'] ")).click();
+	}*/	
+
+	// Verifying login with valid credentials//
 
 	@When("^user fills \"([^\"]*)\" and \"([^\"]*)\"$")
-	public void user_fills_and(String uname, String pswd) throws Throwable {
+	public void user_fills_and(String uname, String pswd) throws Exception  {
+		/*		 driver.navigate().refresh();
+		 normalWait(2000);*/
 		lp.fillusername(uname);
 		lp.fillpassword(pswd);
 		logger.info("*****Successfully Entered Username and Password******");
@@ -42,15 +80,18 @@ public class Steps extends Common_Methods
 	public void clicks_on_Login() throws Throwable 
 	{
 		lp.clickloginbtn();
-		logger.info("*****Logged in Successfully******");
+		logger.info("*****After entering credentials user clicks on Login button******");
+		normalWait(4000);
 	}
 
 	@Then("^user can view dashboard$")
 	public void user_can_view_dashboard() throws Throwable 
 	{
 		Assert.assertEquals("Foss - EHR", lp.getPageTitle());
-		logger.info("*****User landed on OPD Home Page******");
+		logger.info("*****User successfully logged in and landed on OPD Home Page******");
 	}
+
+
 
 	//Create New Patients with mandatory fields------------------------------------------------------------------------------------------------------------------
 	@Then("^click on Add button$")
@@ -135,41 +176,34 @@ public class Steps extends Common_Methods
 		addpd.clickappointmentbtn();
 		logger.info("*****User successfully created one appointment by entering mandatory fields******");
 	}
-	
 
-@When("^validate the size and text of the name drop down values$")
-public void validate_the_size_and_text_of_the_name_drop_down_values() throws Throwable {
-	
-   String[] expectedsalution= {"Mr.","Mrs.","Ms.","Mx.","Dr.","Mst.","Baby","Sr."};
-   driver.findElement(By.xpath("//*[@name='patient[salutation]']")).click();
-   List<WebElement> ddl=driver.findElements(By.xpath("//*[@name='patient[salutation]']/..//option"));
-   for(int i=0;i<ddl.size();i++)
-   {
-	   String salution=ddl.get(i).getText();
-	   logger.info("*********Salution Values are-->"+salution);
-	   for(int j=0;j<expectedsalution.length;j++) {
-	   /*if(ddl.get(i).getText().equals(expectedsalution[j]))
-	   {
-		   logger.info("*********Salution Values are Matching with expected results");
-	   }
-	   else
-	   {
-		   logger.info("*********Salution Values are Not Matching with expected results");
-	   }*/
-   }}
-   
-    
-}
 
-@When("^validate the size and text of laungage drop down values$")
-public void validate_the_size_and_text_of_laungage_drop_down_values() throws Throwable {
-    
-}
+	@When("^validate the size and text of the name drop down values$")
+	public void validate_the_size_and_text_of_the_name_drop_down_values() throws Throwable {
 
-@When("^validate the size and text of the patient type drop down values$")
-public void validate_the_size_and_text_of_the_patient_type_drop_down_values() throws Throwable {
-   
-}
+		String[] expectedsalution= {"Mr.","Mrs.","Ms.","Mx.","Dr.","Mst.","Baby","Sr."};
+		driver.findElement(By.xpath("//*[@name='patient[salutation]']")).click();
+		List<WebElement> ddl=driver.findElements(By.xpath("//*[@name='patient[salutation]']/..//option"));
+		for(int i=0;i<ddl.size();i++)
+		{
+			String salution=ddl.get(i).getText();
+			logger.info("*********Salution Values are-->"+salution);
+			for(int j=0;j<expectedsalution.length;j++) {
+
+			}}
+
+
+	}
+
+	@When("^validate the size and text of laungage drop down values$")
+	public void validate_the_size_and_text_of_laungage_drop_down_values() throws Throwable {
+
+	}
+
+	@When("^validate the size and text of the patient type drop down values$")
+	public void validate_the_size_and_text_of_the_patient_type_drop_down_values() throws Throwable {
+
+	}
 
 
 	//Create  Patients with detail fields values-------------------------------------------------------------------------------------------------------
@@ -776,7 +810,7 @@ public void validate_the_size_and_text_of_the_patient_type_drop_down_values() th
 			logger.info("****NSAIDS must have this tab:" + linkName);
 		}
 	}
-	
+
 
 	@Then("^select Duration for each Nsaids$")
 	public void select_Duration_for_each_Nsaids() throws Throwable 
@@ -849,7 +883,7 @@ public void validate_the_size_and_text_of_the_patient_type_drop_down_values() th
 		}
 	}
 	//******************************** Eye Drops *************************************
-	
+
 	@Then("^validate each tabs of Eye Drops$")
 	public void validate_each_tabs_of_Eye_Drops() throws Throwable 
 	{
@@ -879,7 +913,7 @@ public void validate_the_size_and_text_of_the_patient_type_drop_down_values() th
 			logger.info("****Eye Drops must have this tab:" + linkName);
 		}
 	}
-	
+
 
 	@Then("^select Duration for each Eye Drops$")
 	public void select_Duration_for_each_Eye_Drops() throws Throwable 
@@ -951,9 +985,9 @@ public void validate_the_size_and_text_of_the_patient_type_drop_down_values() th
 			}
 		}
 	}
-	
+
 	//**************************Contact Allergies *******************************
-	
+
 	@Then("^validate each tabs of Contact Allergies$")
 	public void validate_each_tabs_of_Contact_Allergies() throws Throwable 
 	{
@@ -983,7 +1017,7 @@ public void validate_the_size_and_text_of_the_patient_type_drop_down_values() th
 			String linkName = option.getText();
 			logger.info("****Eye Drops must have this tab:" + linkName);
 		}
-										
+
 	}
 	@Then("^select Duration for each Contact Allergies$")
 	public void select_Duration_for_each_Contact_Allergies() throws Throwable 
@@ -1055,9 +1089,9 @@ public void validate_the_size_and_text_of_the_patient_type_drop_down_values() th
 			}
 		}
 	}
-	
+
 	//********************* Food Allergies *******************************
-	
+
 	@Then("^validate each tabs of Food Allergies$")
 	public void validate_each_tabs_of_Food_Allergies() throws Throwable 
 	{

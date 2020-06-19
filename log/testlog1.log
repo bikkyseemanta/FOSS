@@ -3654,3 +3654,644 @@
 2020-06-18 13:06:21,632 [main] INFO HealthGraph - *****click on Add button******
 2020-06-18 13:06:23,243 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
 2020-06-18 13:06:23,302 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 14:28:24,936 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:28:25,187 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:28:26,536 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:28:26,552 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:28:32,066 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:28:32,096 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:28:32,112 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:28:32,143 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:28:32,158 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:28:32,174 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:28:32,205 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:28:33,714 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 14:28:34,814 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 14:28:34,859 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 14:31:01,754 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:31:01,990 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:31:03,636 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:31:03,645 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:31:09,056 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:31:09,088 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:31:09,104 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:31:09,119 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:31:09,151 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:31:09,166 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:31:09,197 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:31:10,635 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 14:31:13,104 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 14:31:13,138 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 14:35:59,449 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:35:59,668 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:36:01,816 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:36:01,828 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:36:07,900 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:36:07,922 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:36:07,944 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:36:07,967 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:36:07,990 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:36:08,013 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:36:08,036 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:36:09,528 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 14:36:10,976 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 14:36:11,020 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 14:38:30,597 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:38:30,840 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:38:32,286 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:38:32,296 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:38:37,758 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:38:37,787 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:38:37,811 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:38:37,836 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:38:37,859 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:38:37,881 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:38:37,902 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:38:39,329 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 14:38:40,365 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 14:38:40,405 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 14:41:09,023 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:41:09,290 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:41:10,669 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:41:10,682 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:41:16,073 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:41:16,102 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:41:16,118 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:41:16,149 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:41:16,165 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:41:16,196 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:41:16,211 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:46:55,290 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:46:55,523 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:46:57,173 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:46:57,185 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:47:02,599 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:47:02,628 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:47:02,644 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:47:02,675 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:47:02,691 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:47:02,707 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:47:02,738 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:49:11,323 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:49:11,582 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:49:13,029 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:49:13,040 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:49:18,518 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:49:18,542 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:49:18,557 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:49:18,589 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:49:18,604 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:49:18,635 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:49:18,651 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:49:22,068 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 14:49:23,090 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 14:49:23,113 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 14:53:29,717 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:53:29,956 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:53:31,738 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:53:31,748 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:53:37,157 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:53:37,184 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:53:37,200 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:53:37,231 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:53:37,247 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:53:37,278 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:53:37,293 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:53:39,470 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 14:53:40,777 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 14:53:40,828 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 14:59:34,482 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 14:59:34,747 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 14:59:36,150 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 14:59:36,159 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 14:59:41,690 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 14:59:41,709 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 14:59:41,750 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 14:59:41,784 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 14:59:41,815 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 14:59:41,838 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 14:59:41,860 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 14:59:43,904 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:00:47,388 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:00:47,643 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:00:49,025 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:00:49,036 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:00:54,525 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:00:54,554 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:00:54,585 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:00:54,617 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:00:54,646 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:00:54,675 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:00:54,696 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:00:56,666 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:00:57,597 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:00:57,660 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:00:58,640 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:00:59,581 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:00:59,612 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:01:00,476 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:01:01,422 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:01:01,455 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:01:02,352 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:01:03,290 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:01:03,322 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:01:04,259 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:01:05,135 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:01:05,165 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:01:05,993 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:01:06,867 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:01:06,898 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:02:01,454 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:02:01,707 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:02:03,059 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:02:03,069 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:02:08,510 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:02:08,534 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:02:08,554 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:02:08,584 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:02:08,604 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:02:08,628 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:02:08,654 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:02:10,250 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:02:13,011 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:02:13,069 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:03:21,826 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:03:22,078 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:03:24,011 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:03:24,023 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:03:29,416 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:03:29,439 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:03:29,463 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:03:29,484 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:03:29,510 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:03:29,534 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:03:29,555 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:03:31,031 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:03:32,094 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:03:32,138 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:05:42,450 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:05:42,697 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:05:44,480 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:05:44,484 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:05:48,707 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:05:48,739 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:05:48,771 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:05:48,802 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:05:48,827 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:05:48,857 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:05:48,872 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:05:50,866 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:05:52,000 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:05:52,057 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:05:56,637 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:05:57,833 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:05:57,865 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:06:02,339 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:06:03,445 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:06:03,487 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:06:07,944 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:06:09,165 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:06:09,196 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:06:13,908 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:06:15,008 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:06:15,041 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:06:19,572 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:06:20,656 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:06:20,690 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:11:16,254 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:11:16,512 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:11:17,933 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:11:17,945 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:11:22,079 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:11:22,098 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:11:22,129 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:11:22,145 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:11:22,176 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:11:22,192 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:11:22,223 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:13:56,919 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:13:57,161 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:13:58,616 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:13:58,631 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:14:02,534 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:14:02,552 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:14:02,568 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:14:02,599 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:14:02,615 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:14:02,646 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:14:02,674 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:14:04,150 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:14:05,148 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:14:05,190 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:14:09,758 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:14:10,719 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:14:10,748 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:14:15,249 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:14:16,108 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:14:16,143 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:14:20,806 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:14:21,727 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:14:21,759 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:20:57,872 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:20:58,119 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:20:59,480 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:20:59,495 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:21:03,404 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:21:03,430 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:21:03,445 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:21:03,477 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:21:03,492 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:21:03,523 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:21:03,539 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:21:05,125 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:21:06,103 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:21:06,144 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:21:15,377 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:21:16,298 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:21:16,329 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:21:25,410 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:21:26,294 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:21:26,326 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:21:35,326 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:21:36,217 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:21:36,248 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:21:45,243 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:21:46,165 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:21:46,193 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:21:57,325 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:22:00,361 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:22:00,402 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:22:55,875 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:22:56,146 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:22:57,664 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:22:57,681 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:23:01,611 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:23:01,636 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:23:01,662 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:23:01,687 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:23:01,711 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:23:01,737 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:23:01,759 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:23:03,662 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:23:04,612 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:23:04,656 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:24:12,625 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:24:12,883 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:24:14,548 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:24:14,558 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:24:18,660 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:24:18,682 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:24:18,705 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:24:18,727 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:24:18,750 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:24:18,772 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:24:18,794 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:24:20,824 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:24:22,026 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:24:22,068 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:24:26,622 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:24:27,846 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:24:27,878 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:24:32,505 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:24:33,626 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:24:33,674 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:24:38,241 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:24:39,538 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:24:39,569 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:26:21,019 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:26:21,270 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:26:23,007 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:26:23,018 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:26:27,103 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:26:27,133 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:26:27,149 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:26:27,180 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:26:27,196 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:26:27,227 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:26:27,242 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:26:29,118 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:26:30,130 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:26:30,169 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:26:34,758 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:26:35,668 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:26:35,698 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:26:40,193 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:26:41,076 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:26:41,128 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:26:45,758 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:26:46,804 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:26:46,836 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:26:51,364 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:26:52,330 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:26:52,362 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:26:56,848 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:26:57,896 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:26:57,926 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:33:52,330 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:33:52,576 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:33:53,983 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:33:53,997 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:33:57,887 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:33:57,910 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:33:57,933 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:33:57,955 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:33:57,978 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:33:58,001 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:33:58,023 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:33:59,917 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:34:00,967 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:34:01,022 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:35:46,761 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:35:46,991 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 15:35:48,381 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:35:48,397 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 15:35:52,389 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 15:35:52,410 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 15:35:52,426 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 15:35:52,457 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 15:35:52,473 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 15:35:52,504 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 15:35:52,519 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 15:35:54,378 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:35:55,556 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:35:55,593 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:36:11,908 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:36:13,440 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:36:13,531 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:36:24,691 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:36:25,666 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:36:25,717 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:36:36,661 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 15:36:37,574 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 15:36:37,603 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 15:51:28,034 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:51:28,623 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:51:28,685 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 15:53:14,691 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:53:15,429 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:53:19,561 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 15:56:01,775 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 15:56:02,353 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 15:56:06,432 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 16:00:59,311 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 16:00:59,967 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 16:01:04,064 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 16:04:45,371 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 16:04:46,015 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 16:04:50,091 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 16:05:53,535 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 16:05:54,142 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 16:05:58,277 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 16:08:16,122 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 16:08:16,830 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 16:08:20,993 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 19:13:45,765 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 19:13:46,027 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 19:13:47,424 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 19:13:51,458 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 19:15:33,375 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 19:15:33,626 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 19:15:35,274 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 19:15:39,313 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 19:21:42,944 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 19:21:45,615 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 19:21:46,949 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 19:21:50,960 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 19:23:56,621 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 19:23:59,175 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 19:24:00,658 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 19:24:04,669 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 20:17:46,303 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 20:17:46,557 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 20:17:48,252 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 20:17:52,298 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 20:20:03,521 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 20:20:03,764 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 20:20:05,157 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 20:20:09,202 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 20:22:32,621 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 20:22:32,859 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 20:22:34,231 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 20:22:34,235 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-18 20:22:38,244 [main] INFO HealthGraph - ****Patient Setting must have below tabs:First Name
+2020-06-18 20:22:38,283 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Mobile Number
+2020-06-18 20:22:38,314 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Gender
+2020-06-18 20:22:38,346 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age
+2020-06-18 20:22:38,377 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Age Month
+2020-06-18 20:22:38,408 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Referral Source
+2020-06-18 20:22:38,424 [main] INFO HealthGraph - ****Patient Setting must have below tabs:Save
+2020-06-18 20:22:40,099 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 20:22:41,338 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 20:22:41,397 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 20:22:52,476 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 20:22:53,693 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 20:22:53,749 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 20:23:04,704 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 20:23:05,678 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 20:23:05,707 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 20:23:16,738 [main] INFO HealthGraph - *****click on Add button******
+2020-06-18 20:23:17,790 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-18 20:23:17,825 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-18 20:37:59,638 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 20:38:00,291 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 20:38:04,408 [main] INFO HealthGraph - *****The validation message is displaying when user filling invalid user name and password and click on log in button******
+2020-06-18 20:38:21,468 [main] INFO HealthGraph - *****Launching browser******
+2020-06-18 20:38:21,700 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-18 20:38:23,897 [main] INFO HealthGraph - *****Logged in Successfully******
+2020-06-18 20:38:27,932 [main] INFO HealthGraph - *****User landed on OPD Home Page******
+2020-06-19 12:29:12,466 [main] INFO HealthGraph - *****Launching browser******
+2020-06-19 12:29:12,806 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-19 12:29:15,820 [main] INFO HealthGraph - *****After entering credentials user clicks on Login button******
+2020-06-19 12:29:19,836 [main] INFO HealthGraph - *****User successfully logged in and landed on OPD Home Page******
+2020-06-19 12:29:20,724 [main] INFO HealthGraph - *****click on Add button******
+2020-06-19 12:29:22,416 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-19 12:29:22,466 [main] INFO HealthGraph - ****Modal must have below tabs:Patient Details
+2020-06-19 12:29:22,486 [main] INFO HealthGraph - ****Modal must have below tabs:Other Details
+2020-06-19 12:29:22,505 [main] INFO HealthGraph - ****Modal must have below tabs:History
+2020-06-19 12:29:22,526 [main] INFO HealthGraph - ****Modal must have below tabs:Allergies
+2020-06-19 12:29:22,773 [main] INFO HealthGraph - *****Without filling mandatory field clicking on Appointment button******
+2020-06-19 12:29:22,826 [main] INFO HealthGraph - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
+2020-06-19 12:29:23,134 [main] INFO HealthGraph - *****User entered mandatory fields such as First name and Mob no******
+2020-06-19 12:29:23,353 [main] INFO HealthGraph - *********Salution Values are--> 
+2020-06-19 12:29:23,378 [main] INFO HealthGraph - *********Salution Values are-->Mr.
+2020-06-19 12:29:23,394 [main] INFO HealthGraph - *********Salution Values are-->Mrs.
+2020-06-19 12:29:23,411 [main] INFO HealthGraph - *********Salution Values are-->Ms.
+2020-06-19 12:29:23,424 [main] INFO HealthGraph - *********Salution Values are-->Mx.
+2020-06-19 12:29:23,436 [main] INFO HealthGraph - *********Salution Values are-->Dr.
+2020-06-19 12:29:23,448 [main] INFO HealthGraph - *********Salution Values are-->Mst.
+2020-06-19 12:29:23,461 [main] INFO HealthGraph - *********Salution Values are-->Baby
+2020-06-19 12:29:23,476 [main] INFO HealthGraph - *********Salution Values are-->Sr.
+2020-06-19 12:29:23,625 [main] INFO HealthGraph - *****User successfully created one appointment by entering mandatory fields******
+2020-06-19 12:29:40,437 [main] INFO HealthGraph - *****Launching browser******
+2020-06-19 12:29:40,666 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-19 12:29:42,817 [main] INFO HealthGraph - *****After entering credentials user clicks on Login button******
+2020-06-19 12:29:46,849 [main] INFO HealthGraph - *****User successfully logged in and landed on OPD Home Page******
+2020-06-19 12:29:47,622 [main] INFO HealthGraph - *****click on Add button******
+2020-06-19 12:29:48,629 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-19 12:29:55,033 [main] INFO HealthGraph - *******User sucessfully create an appointment by entering all fields under Patient details tab********
+2020-06-19 12:29:55,243 [main] INFO HealthGraph - *****User successfully created one appointment by entering mandatory fields******
+2020-06-19 12:31:09,876 [main] INFO HealthGraph - *****Launching browser******
+2020-06-19 12:31:10,107 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-19 12:31:18,179 [main] INFO HealthGraph - *****After entering credentials user clicks on Login button******
+2020-06-19 12:31:22,208 [main] INFO HealthGraph - *****User successfully logged in and landed on OPD Home Page******
+2020-06-19 12:31:22,955 [main] INFO HealthGraph - *****click on Add button******
+2020-06-19 12:31:26,797 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-19 12:31:27,172 [main] INFO HealthGraph - *****User entered mandatory fields such as First name and Mob no******
+2020-06-19 12:31:27,216 [main] INFO HealthGraph - *******User clicks in Other Details********
+2020-06-19 12:31:27,263 [main] INFO HealthGraph - *******User selected blood group********
+2020-06-19 12:31:27,323 [main] INFO HealthGraph - *******User selected Maritial status********
+2020-06-19 12:31:27,776 [main] INFO HealthGraph - *******User filled emergency Name and Contact number********
+2020-06-19 12:31:27,808 [main] INFO HealthGraph - *******User selected Special status********
+2020-06-19 12:31:28,045 [main] INFO HealthGraph - *****User successfully created one appointment by entering mandatory fields******
+2020-06-19 12:31:46,640 [main] INFO HealthGraph - *****Launching browser******
+2020-06-19 12:31:46,927 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-19 12:31:49,702 [main] INFO HealthGraph - *****After entering credentials user clicks on Login button******
+2020-06-19 12:31:53,743 [main] INFO HealthGraph - *****User successfully logged in and landed on OPD Home Page******
+2020-06-19 12:31:59,222 [main] INFO HealthGraph - *****click on Add button******
+2020-06-19 12:32:00,490 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-19 12:32:00,839 [main] INFO HealthGraph - *****User entered mandatory fields such as First name and Mob no******
+2020-06-19 12:32:00,880 [main] INFO HealthGraph - *******User clicks on History tab********
+2020-06-19 12:32:00,915 [main] INFO HealthGraph - ****Opthal History must have below tabs:Glaucoma
+2020-06-19 12:32:00,933 [main] INFO HealthGraph - ****Opthal History must have below tabs:Retinal Detachment
+2020-06-19 12:32:00,951 [main] INFO HealthGraph - ****Opthal History must have below tabs:Glass
+2020-06-19 12:32:00,975 [main] INFO HealthGraph - ****Opthal History must have below tabs:Eye Disease
+2020-06-19 12:32:00,994 [main] INFO HealthGraph - ****Opthal History must have below tabs:Eye Surgery
+2020-06-19 12:32:01,012 [main] INFO HealthGraph - ****Opthal History must have below tabs:Uveitis
+2020-06-19 12:32:01,031 [main] INFO HealthGraph - ****Opthal History must have below tabs:Retinal laser
+2020-06-19 12:32:01,389 [main] INFO HealthGraph - ****Systemic History must have below tabs:Diabetes
+2020-06-19 12:32:01,412 [main] INFO HealthGraph - ****Systemic History must have below tabs:Hypertension
+2020-06-19 12:32:01,433 [main] INFO HealthGraph - ****Systemic History must have below tabs:Alcoholism
+2020-06-19 12:32:01,454 [main] INFO HealthGraph - ****Systemic History must have below tabs:Smoking Tobacco
+2020-06-19 12:32:01,474 [main] INFO HealthGraph - ****Systemic History must have below tabs:Cardiac Disorder
+2020-06-19 12:32:01,496 [main] INFO HealthGraph - ****Systemic History must have below tabs:Steroid Intake
+2020-06-19 12:32:01,518 [main] INFO HealthGraph - ****Systemic History must have below tabs:Drug Abuse
+2020-06-19 12:32:01,538 [main] INFO HealthGraph - ****Systemic History must have below tabs:Hiv Aids
+2020-06-19 12:32:01,559 [main] INFO HealthGraph - ****Systemic History must have below tabs:Cancer Tumor
+2020-06-19 12:32:01,581 [main] INFO HealthGraph - ****Systemic History must have below tabs:Tuberculosis
+2020-06-19 12:32:01,603 [main] INFO HealthGraph - ****Systemic History must have below tabs:Asthma
+2020-06-19 12:32:01,625 [main] INFO HealthGraph - ****Systemic History must have below tabs:Cns Disorder Stroke
+2020-06-19 12:32:01,649 [main] INFO HealthGraph - ****Systemic History must have below tabs:Hypothyroidism
+2020-06-19 12:32:01,679 [main] INFO HealthGraph - ****Systemic History must have below tabs:Hyperthyroidism
+2020-06-19 12:32:01,708 [main] INFO HealthGraph - ****Systemic History must have below tabs:Hepatitis Cirrhosis
+2020-06-19 12:32:01,729 [main] INFO HealthGraph - ****Systemic History must have below tabs:Renal Disorder
+2020-06-19 12:32:01,755 [main] INFO HealthGraph - ****Systemic History must have below tabs:Acidity
+2020-06-19 12:32:01,796 [main] INFO HealthGraph - ****Systemic History must have below tabs:On insulin
+2020-06-19 12:32:01,815 [main] INFO HealthGraph - ****Systemic History must have below tabs:On Aspirin Blood Thinners
+2020-06-19 12:32:01,834 [main] INFO HealthGraph - ****Systemic History must have below tabs:Consanguinity
+2020-06-19 12:32:01,855 [main] INFO HealthGraph - ****Systemic History must have below tabs:Thyroid Disorder
+2020-06-19 12:32:01,875 [main] INFO HealthGraph - ****Systemic History must have below tabs:Chewing Tobacco
+2020-06-19 12:32:35,143 [main] INFO HealthGraph - *****Launching browser******
+2020-06-19 12:32:35,390 [main] INFO HealthGraph - *****Successfully Entered Username and Password******
+2020-06-19 12:32:39,035 [main] INFO HealthGraph - *****After entering credentials user clicks on Login button******
+2020-06-19 12:32:43,068 [main] INFO HealthGraph - *****User successfully logged in and landed on OPD Home Page******
+2020-06-19 12:32:43,834 [main] INFO HealthGraph - *****click on Add button******
+2020-06-19 12:32:46,419 [main] INFO HealthGraph - *****click on Add New Patient button******
+2020-06-19 12:32:46,789 [main] INFO HealthGraph - *****User entered mandatory fields such as First name and Mob no******
+2020-06-19 12:32:46,891 [main] INFO HealthGraph - ****Drug Allergies must have below tabs:Antimicrobial Agents
+2020-06-19 12:32:46,911 [main] INFO HealthGraph - ****Drug Allergies must have below tabs:Antifungal Agents
+2020-06-19 12:32:46,938 [main] INFO HealthGraph - ****Drug Allergies must have below tabs:Antiviral Agents
+2020-06-19 12:32:46,958 [main] INFO HealthGraph - ****Drug Allergies must have below tabs:Nsaids
+2020-06-19 12:32:46,977 [main] INFO HealthGraph - ****Drug Allergies must have below tabs:Eye Drops
+2020-06-19 12:32:47,163 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Ampicillin
+2020-06-19 12:32:47,212 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Amoxicillin
+2020-06-19 12:32:47,235 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Ceftriaxone
+2020-06-19 12:32:47,256 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Ciprofloxacin
+2020-06-19 12:32:47,275 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Clarithromycin
+2020-06-19 12:32:47,296 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Co Trimoxazole
+2020-06-19 12:32:47,329 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Ethambutol
+2020-06-19 12:32:47,349 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Isoniazid
+2020-06-19 12:32:47,369 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Metronidazole
+2020-06-19 12:32:47,389 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Penicillin
+2020-06-19 12:32:47,409 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Rifampicin
+2020-06-19 12:32:47,427 [main] INFO HealthGraph - ****Antimicrobial agents must have below tabs:Streptomycin
+2020-06-19 12:32:47,654 [main] INFO HealthGraph - ****Antifungal agents must have below tabs:Ketoconazole
+2020-06-19 12:32:47,679 [main] INFO HealthGraph - ****Antifungal agents must have below tabs:Fluconazole
+2020-06-19 12:32:47,700 [main] INFO HealthGraph - ****Antifungal agents must have below tabs:Itraconazole
+2020-06-19 12:32:47,878 [main] INFO HealthGraph - ****Antiviral agents must have below tabs:Acyclovir
+2020-06-19 12:32:47,903 [main] INFO HealthGraph - ****Antiviral agents must have below tabs:Efavirenz
+2020-06-19 12:32:47,926 [main] INFO HealthGraph - ****Antiviral agents must have below tabs:Enfuvirtide
+2020-06-19 12:32:47,954 [main] INFO HealthGraph - ****Antiviral agents must have below tabs:Nelfinavir
+2020-06-19 12:32:47,975 [main] INFO HealthGraph - ****Antiviral agents must have below tabs:Nevirapine
+2020-06-19 12:32:47,995 [main] INFO HealthGraph - ****Antiviral agents must have below tabs:Zidovudine
+2020-06-19 12:32:48,178 [main] INFO HealthGraph - ****Nsaids must have below tabs:Aspirin
+2020-06-19 12:32:48,205 [main] INFO HealthGraph - ****Nsaids must have below tabs:Paracetamol
+2020-06-19 12:32:48,231 [main] INFO HealthGraph - ****Nsaids must have below tabs:Ibuprofen
+2020-06-19 12:32:48,257 [main] INFO HealthGraph - ****Nsaids must have below tabs:Diclofenac
+2020-06-19 12:32:48,279 [main] INFO HealthGraph - ****Nsaids must have below tabs:Aceclofenac
+2020-06-19 12:32:48,303 [main] INFO HealthGraph - ****Nsaids must have below tabs:Naproxen
+2020-06-19 12:32:48,490 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Tropicamide_P
+2020-06-19 12:32:48,523 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Tropicamide
+2020-06-19 12:32:48,553 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Timolol
+2020-06-19 12:32:48,575 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Homide
+2020-06-19 12:32:48,597 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Latanoprost
+2020-06-19 12:32:48,619 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Brimonidine
+2020-06-19 12:32:48,647 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Travoprost
+2020-06-19 12:32:48,667 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Tobramycin
+2020-06-19 12:32:48,686 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Moxifloxacin
+2020-06-19 12:32:48,715 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Homatropine
+2020-06-19 12:32:48,736 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Pilocarpine
+2020-06-19 12:32:48,763 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Cyclopentolate
+2020-06-19 12:32:48,783 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Atropine
+2020-06-19 12:32:48,803 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Phenylephrine
+2020-06-19 12:32:48,825 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Tropicacyl
+2020-06-19 12:32:48,846 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Paracain
+2020-06-19 12:32:48,871 [main] INFO HealthGraph - ****EyeDrops must have below tabs:Ciplox
+2020-06-19 12:32:48,911 [main] INFO HealthGraph - ****Contact Allergies must have below tabs:Alcohol
+2020-06-19 12:32:48,951 [main] INFO HealthGraph - ****Contact Allergies must have below tabs:Latex
+2020-06-19 12:32:48,987 [main] INFO HealthGraph - ****Contact Allergies must have below tabs:Betadine
+2020-06-19 12:32:49,009 [main] INFO HealthGraph - ****Contact Allergies must have below tabs:Adhesive Tape
+2020-06-19 12:32:49,028 [main] INFO HealthGraph - ****Contact Allergies must have below tabs:Tegaderm
+2020-06-19 12:32:49,049 [main] INFO HealthGraph - ****Contact Allergies must have below tabs:Transpore
+2020-06-19 12:32:49,091 [main] INFO HealthGraph - ****Food Allergies must have below tabs:All Seafood
+2020-06-19 12:32:49,115 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Corn
+2020-06-19 12:32:49,134 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Egg
+2020-06-19 12:32:49,154 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Milk Proteins
+2020-06-19 12:32:49,172 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Peanuts
+2020-06-19 12:32:49,205 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Shellfish Only
+2020-06-19 12:32:49,228 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Soy Protein
+2020-06-19 12:32:49,251 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Lactose
+2020-06-19 12:32:49,269 [main] INFO HealthGraph - ****Food Allergies must have below tabs:Mushroom
+2020-06-19 12:32:50,648 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Ampicillin
+2020-06-19 12:32:50,673 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Amoxicillin
+2020-06-19 12:32:50,694 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Ceftriaxone
+2020-06-19 12:32:50,735 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Ciprofloxacin
+2020-06-19 12:32:50,752 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Clarithromycin
+2020-06-19 12:32:50,774 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Co Trimoxazole
+2020-06-19 12:32:50,797 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Ethambutol
+2020-06-19 12:32:50,820 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Isoniazid
+2020-06-19 12:32:50,841 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Metronidazole
+2020-06-19 12:32:50,864 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Penicillin
+2020-06-19 12:32:50,887 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Rifampicin
+2020-06-19 12:32:50,906 [main] INFO HealthGraph - ****Antimicrobial agent must have this tab:Streptomycin
+2020-06-19 12:33:09,681 [main] INFO HealthGraph - ****Antifungal agent must have this tab:Ketoconazole
+2020-06-19 12:33:09,694 [main] INFO HealthGraph - ****Antifungal agent must have this tab:Fluconazole
+2020-06-19 12:33:09,720 [main] INFO HealthGraph - ****Antifungal agent must have this tab:Itraconazole
+2020-06-19 12:33:15,515 [main] INFO HealthGraph - ****Antiviral agent must have this tab:Acyclovir
+2020-06-19 12:33:15,529 [main] INFO HealthGraph - ****Antiviral agent must have this tab:Efavirenz
+2020-06-19 12:33:15,543 [main] INFO HealthGraph - ****Antiviral agent must have this tab:Enfuvirtide
+2020-06-19 12:33:15,559 [main] INFO HealthGraph - ****Antiviral agent must have this tab:Nelfinavir
+2020-06-19 12:33:15,574 [main] INFO HealthGraph - ****Antiviral agent must have this tab:Nevirapine
+2020-06-19 12:33:15,588 [main] INFO HealthGraph - ****Antiviral agent must have this tab:Zidovudine
+2020-06-19 12:33:28,999 [main] INFO HealthGraph - ****NSAIDS must have this tab:Aspirin
+2020-06-19 12:33:29,014 [main] INFO HealthGraph - ****NSAIDS must have this tab:Paracetamol
+2020-06-19 12:33:29,029 [main] INFO HealthGraph - ****NSAIDS must have this tab:Ibuprofen
+2020-06-19 12:33:29,046 [main] INFO HealthGraph - ****NSAIDS must have this tab:Diclofenac
+2020-06-19 12:33:29,061 [main] INFO HealthGraph - ****NSAIDS must have this tab:Aceclofenac
+2020-06-19 12:33:29,075 [main] INFO HealthGraph - ****NSAIDS must have this tab:Naproxen
+2020-06-19 12:33:46,055 [main] INFO HealthGraph - ****Eye Drops must have this tab:Tropicamide P
+2020-06-19 12:33:46,070 [main] INFO HealthGraph - ****Eye Drops must have this tab:Tropicamide
+2020-06-19 12:33:46,083 [main] INFO HealthGraph - ****Eye Drops must have this tab:Timolol
+2020-06-19 12:33:46,097 [main] INFO HealthGraph - ****Eye Drops must have this tab:Homide
+2020-06-19 12:33:46,112 [main] INFO HealthGraph - ****Eye Drops must have this tab:Latanoprost
+2020-06-19 12:33:46,126 [main] INFO HealthGraph - ****Eye Drops must have this tab:Brimonidine
+2020-06-19 12:33:46,142 [main] INFO HealthGraph - ****Eye Drops must have this tab:Travoprost
+2020-06-19 12:33:46,158 [main] INFO HealthGraph - ****Eye Drops must have this tab:Tobramycin
+2020-06-19 12:33:46,172 [main] INFO HealthGraph - ****Eye Drops must have this tab:Moxifloxacin
+2020-06-19 12:33:46,185 [main] INFO HealthGraph - ****Eye Drops must have this tab:Homatropine
+2020-06-19 12:33:46,200 [main] INFO HealthGraph - ****Eye Drops must have this tab:Pilocarpine
+2020-06-19 12:33:46,214 [main] INFO HealthGraph - ****Eye Drops must have this tab:Cyclopentolate
+2020-06-19 12:33:46,227 [main] INFO HealthGraph - ****Eye Drops must have this tab:Atropine
+2020-06-19 12:33:46,241 [main] INFO HealthGraph - ****Eye Drops must have this tab:Phenylephrine
+2020-06-19 12:33:46,256 [main] INFO HealthGraph - ****Eye Drops must have this tab:Tropicacyl
+2020-06-19 12:33:46,273 [main] INFO HealthGraph - ****Eye Drops must have this tab:Paracain
+2020-06-19 12:33:46,310 [main] INFO HealthGraph - ****Eye Drops must have this tab:Ciplox

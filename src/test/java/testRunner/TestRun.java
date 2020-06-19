@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-		features = ".\\Features\\Patient_Setting.feature",
-		glue = {"PatientSetting" }, 
+		features = ".\\Features\\Add_Patient_For_OPD.feature",
+		glue = {"PatientRegistration" }, 
 		monochrome = true, 
 		dryRun = false,
 		strict = false,

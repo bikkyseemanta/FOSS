@@ -82,10 +82,10 @@ public class Common_Methods {
 		return value;
 	}
 
-	public static  void clickElementByElement(WebElement element)
+	public static  void clickElementByElement(WebElement element1)
 	{
 		JavascriptExecutor js=(JavascriptExecutor)driver;    
-		js.executeScript("arguments[0].click();", element); 
+		js.executeScript("arguments[0].click();", element1); 
 	}
 	
 	public static void normalWait(long seconds) throws Exception
