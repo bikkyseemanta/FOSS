@@ -31,16 +31,16 @@ public class Steps extends Common_Methods
 		PropertyConfigurator.configure("Log4j.properties");
 		browser_and_url_open();
 		lp=new LoginPage(driver);
-		logger.info("*****Launching browser******");
+		logger.info("****Launching browser******");
 	}
-	
-	
+
+
 	@When("^user fills invalid \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void user_fills_invalid_and(String arg1, String arg2) throws Throwable {
 
 		lp.fillusername(arg1);
 		lp.fillpassword(arg2);
-		logger.info("*****User entered invalid credentials******");
+		logger.info("****User entered invalid credentials******");
 	}
 
 	@Then("^validation error message should display on UI$")
@@ -48,12 +48,12 @@ public class Steps extends Common_Methods
 		try {
 			if(driver.findElement(By.xpath("//*[text()='Invalid Username/Password']")).isDisplayed())
 			{
-				logger.info("*****The validation message is displaying when user filling invalid user name and password and click on log in button******");
+				logger.info("****The validation message is displaying when user filling invalid user name and password and click on log in button******");
 
 			}}
 		catch(StaleElementReferenceException e)
 		{
-			logger.info("*****The validation message is not displaying when user filling invalid user name and password and click on log in button******");
+			logger.info("****The validation message is not displaying when user filling invalid user name and password and click on log in button******");
 
 		}
 	}
@@ -73,14 +73,14 @@ public class Steps extends Common_Methods
 		 normalWait(2000);*/
 		lp.fillusername(uname);
 		lp.fillpassword(pswd);
-		logger.info("*****Successfully Entered Username and Password******");
+		logger.info("****Successfully Entered Username and Password******");
 	}
 
 	@When("^clicks on Login$")
 	public void clicks_on_Login() throws Throwable 
 	{
 		lp.clickloginbtn();
-		logger.info("*****After entering credentials user clicks on Login button******");
+		logger.info("****After entering credentials user clicks on Login button******");
 		normalWait(4000);
 	}
 
@@ -88,7 +88,7 @@ public class Steps extends Common_Methods
 	public void user_can_view_dashboard() throws Throwable 
 	{
 		Assert.assertEquals("Foss - EHR", lp.getPageTitle());
-		logger.info("*****User successfully logged in and landed on OPD Home Page******");
+		logger.info("****User successfully logged in and landed on OPD Home Page******");
 	}
 
 
@@ -99,13 +99,13 @@ public class Steps extends Common_Methods
 
 		addpd =new AddPatientDetails(driver);
 		addpd.clickAdd_btn();
-		logger.info("*****click on Add button******");
+		logger.info("****click on Add button******");
 	}
 
 	@Then("^click on Add New Patient button$")
 	public void click_on_Add_New_Patient_button() throws Throwable {
 		addpd.click_Add_New_Patient_btn();
-		logger.info("*****click on Add New Patient button******");
+		logger.info("****click on Add New Patient button******");
 	}
 
 	@Then("^User should see a modal having the header \"([^\"]*)\"$")
@@ -136,7 +136,6 @@ public class Steps extends Common_Methods
 		for (WebElement element : addpd.patientWizardTabs) {
 			Assert.assertEquals(element.getText(), listData.get(index));
 			index++;
-			//logger.info("*****Modal have Patient Details, Other Details, History and Allergies tab on LHS ******");
 			logger.info("****Modal must have below tabs:" + element.getText());
 		}
 	}
@@ -145,7 +144,7 @@ public class Steps extends Common_Methods
 	public void user_without_filling_mandatory_field_and_click_on_Appointment_button() throws Throwable {
 
 		addpd.clickappointmentbtn();
-		logger.info("*****Without filling mandatory field clicking on Appointment button******");
+		logger.info("****Without filling mandatory field clicking on Appointment button******");
 	}
 
 	@Then("^validate warning message should display$")
@@ -155,12 +154,12 @@ public class Steps extends Common_Methods
 		if(warnmsgclor.contains("rgba(51, 51, 51, 1)"))
 		{
 			Reporter.addStepLog("The warning mesage is highlighting in RED color if user not filling the mandatory fields-->SUCCESS");
-			logger.info("*****The warning mesage is highlighting in RED color if user not filling the mandatory fields******");
+			logger.info("****The warning mesage is highlighting in RED color if user not filling the mandatory fields******");
 		}
 		else
 		{
 			Reporter.addStepLog("The warning mesage is highlighting in RED color if user not filling the mandatory fields-->DEFECT");
-			logger.info("*****The warning mesage is not showing in RED color if user not filling the mandatory fields******");
+			logger.info("****The warning mesage is not showing in RED color if user not filling the mandatory fields******");
 		}
 	}
 
@@ -168,13 +167,13 @@ public class Steps extends Common_Methods
 	public void user_fill_mandatory_fields(String arg1, String arg2) throws Throwable {
 		addpd.fillFirstName(arg1);
 		addpd.fillMobNo(arg2);
-		logger.info("*****User entered mandatory fields such as First name and Mob no******"); 
+		logger.info("****User entered mandatory fields such as First name and Mob no******"); 
 	}
 
 	@Then("^user can create Appointment$")
 	public void user_can_create_Appointment() throws Throwable {
 		addpd.clickappointmentbtn();
-		logger.info("*****User successfully created one appointment by entering mandatory fields******");
+		logger.info("****User successfully click on Create Appointment button******");
 	}
 
 
@@ -191,17 +190,17 @@ public class Steps extends Common_Methods
 			for(int j=0;j<expectedsalution.length;j++) {
 
 			}}
-
-
 	}
 
 	@When("^validate the size and text of laungage drop down values$")
-	public void validate_the_size_and_text_of_laungage_drop_down_values() throws Throwable {
+	public void validate_the_size_and_text_of_laungage_drop_down_values() throws Throwable
+	{
 
 	}
 
 	@When("^validate the size and text of the patient type drop down values$")
-	public void validate_the_size_and_text_of_the_patient_type_drop_down_values() throws Throwable {
+	public void validate_the_size_and_text_of_the_patient_type_drop_down_values() throws Throwable 
+	{
 
 	}
 
@@ -227,21 +226,21 @@ public class Steps extends Common_Methods
 		addpd.fillDL(DLno);
 		addpd.fillPan(PANno);
 		addpd.fillpatientref(Ref);
-		logger.info("*******User sucessfully create an appointment by entering all fields under Patient details tab********");						
+		logger.info("****User sucessfully entered all fields in Patient Details tab********");						
 	}
 
 	@When("^clicks on other details tab$")
 	public void clicks_on_other_details_tab() throws Throwable 
 	{
 		addpd.click_Other_Details();
-		logger.info("*******User clicks in Other Details********");
+		logger.info("****User clicks in Other Details tab********");
 	}
 
 	@When("^validate blood gropup radio button should be single select$")
 	public void validate_blood_gropup_radio_button_should_be_single_select() throws Throwable 
 	{
 		addpd.selectBloodGroup();
-		logger.info("*******User selected blood group********");
+		logger.info("****User selected blood group********");
 		/*	    addpd.selectnegativeGroup();
 		addpd.selectpositiveGroup();
 		String radiocolour2=driver.findElement(By.xpath("//*[text()='O+']")).getCssValue("color");
@@ -252,7 +251,7 @@ public class Steps extends Common_Methods
 	public void maritial_status_should_be_single_select_radio_button() throws Throwable
 	{
 		addpd.select_Mar_Status();
-		logger.info("*******User selected Maritial status********");
+		logger.info("****User selected Maritial status********");
 	}
 
 	@When("^fill emergency contact \"([^\"]*)\" \"([^\"]*)\"$")
@@ -260,21 +259,21 @@ public class Steps extends Common_Methods
 	{
 		addpd.fillEmrgncyName(ename);
 		addpd.fillEmrgncyCnct(ecnct);
-		logger.info("*******User filled emergency Name and Contact number********");
+		logger.info("****User filled emergency Name and Contact number********");
 	}
 
 	@When("^validate special status$")
 	public void validate_special_status() throws Throwable 
 	{
 		addpd.selectSpecstatus(); 
-		logger.info("*******User selected Special status********");
+		logger.info("****User selected Special status********");
 	}
 
 	@When("^clicks on history tab$")
 	public void clicks_on_history_tab() throws Throwable
 	{
 		addpd.clickHistory();
-		logger.info("*******User clicks on History tab********");
+		logger.info("****User clicks on History tab********");
 
 	}
 	@When("^Opthalmic History have below tabs$")
@@ -311,25 +310,28 @@ public class Steps extends Common_Methods
 	public void add_comments_inside_Systemic_Hitory() throws Throwable
 	{
 		driver.findElement(By.xpath("//input[@id='patient_history_comment']")).sendKeys("Systemic History Comments");
-
+		logger.info("**** User successfully entered Systemic History comments******");	
 	}
 
 	@Then("^add Medical History$")
 	public void add_Medical_History() throws Throwable
 	{
 		driver.findElement(By.xpath("//input[@id='patient_other_history_attributes_medical_history']")).sendKeys("Medical History Comments");
+		logger.info("**** User successfully entered Medical History comments******");
 	}
 
 	@Then("^add Family history$")
 	public void family_history() throws Throwable 
 	{
 		driver.findElement(By.xpath("//input[@id='patient_other_history_attributes_family_history']")).sendKeys("Family History Comments");
+		logger.info("**** User successfully entered Family History comments******");
 	}
 
 	@When("^clicks on allergies tab$")
 	public void clicks_on_allergies_tab() throws Throwable 
 	{
 		addpd.clickAllergies();
+		logger.info("****User successfully clicked on Allergies tab******");
 	}
 
 	@When("^Drug Allergies have below tabs$")
@@ -340,7 +342,7 @@ public class Steps extends Common_Methods
 		for (WebElement element : addpd.drugAllergiesTab) {
 			Assert.assertEquals(element.getText(), listData.get(index));
 			index++;
-			logger.info("****Drug Allergies must have below tabs:" + element.getText());	
+			logger.info("****Drug Allergies must have this tabs:" + element.getText());	
 		}
 	}
 
@@ -360,7 +362,7 @@ public class Steps extends Common_Methods
 		for (WebElement element : addpd.antimicrobialagent) {
 			Assert.assertEquals(element.getText(), listData.get(index));
 			index++;
-			logger.info("****Antimicrobial agents must have below tabs:" + element.getText());	
+			logger.info("****Antimicrobial agents must have this tabs:" + element.getText());	
 		}
 	}
 
@@ -380,7 +382,7 @@ public class Steps extends Common_Methods
 		for (WebElement element : addpd.antifungalagent) {
 			Assert.assertEquals(element.getText(), listData.get(index));
 			index++;
-			logger.info("****Antifungal agents must have below tabs:" + element.getText());	
+			logger.info("****Antifungal agents must have this tabs:" + element.getText());	
 		}
 	}
 
@@ -1193,5 +1195,146 @@ public class Steps extends Common_Methods
 		}
 	}
 
+	//**********************Appointment Details*******************************//
+
+	@Then("^validate Walkin type radio buttom autoselected$")
+	public void validate_Walkin_type_radio_buttom_autoselected() throws Throwable
+	{	
+		WebElement option1 = driver.findElement(By.id("appointmenttype_walkin"));								
+		// Check whether the Check box is toggled on 		
+		if (option1.isSelected()) {					
+			System.out.println("Checkbox is Toggled On");	
+			logger.info("***********Walkin Type radio button is autoselected************");
+
+		} else {			
+			System.out.println("Checkbox is Toggled Off");	
+			logger.info("***********Appointment Type radio button is autoselected************");
+		}		
+	}
+
+	@Then("^validate Appointment Date and Time$")
+	public void validate_Appointment_Date_and_Time() throws Throwable
+	{
+		String date =driver.findElement(By.id("appointment_appointmentdate")).getAttribute("value");
+		logger.info("***********Appointment Date----->" + date);
+		String time =driver.findElement(By.id("appointment_time")).getAttribute("value");
+		logger.info("***********Appointment Date----->" + time);
+		
+	}
+
+	@Then("^validate location drop down$")
+	public void validate_location_drop_down() throws Throwable 
+	{
+		//driver.findElement(By.xpath("//*[@id='select2-appointment_facility_id-container']")).click();
+		
+			//logger.info("*********Salution Values are-->");
+	}
+
+	@Then("^validate Doctor drop down$")
+	public void validate_Doctor_drop_down() throws Throwable 
+	{
+		
+	}
+
+	@Then("^select Appointment Types$")
+	public void select_Appointment_Types() throws Throwable
+	{
+
+	}
+
+	@Then("^select Appointment Category$")
+	public void select_Appointment_Category() throws Throwable 
+	{
+
+	}
+
+	
+	/////--------------------       Patient Setting for Mandatory Fields   ---------------------------////////
+	
+	
+	@When("^user clicks on profile setting button$")
+	public void user_clicks_on_profile_setting_button() throws Throwable {
+
+		driver.findElement(By.id("setting_n_logout")).click();
+		normalWait(1000);
+	}
+
+	@Then("^clicks on organisation setting link$")
+	public void clicks_on_organisation_setting_link() throws Throwable {
+		driver.findElement(By.xpath("//*[@href='/admins/organisation_settings']")).click();
+		normalWait(1000);
+	}
+
+	@Then("^clicks on Patient Setting link from the left panel menu$")
+	public void clicks_on_Patient_Setting_link_from_the_left_panel_menu() throws Throwable {
+		driver.findElement(By.xpath("//*[@href='#manage_patient_form_settings']")).click();
+		normalWait(1500);
+	}
+
+	@Then("^it should display below buttons$")
+	public void it_should_display_below_buttons(DataTable arg1) throws Throwable {
+		addpd =new AddPatientDetails(driver);
+		List<String> listData = arg1.asList(String.class);
+		int index = 0;
+		for (WebElement element : addpd.patientsetting) {
+			Assert.assertEquals(element.getText(), listData.get(index));
+			index++;
+			logger.info("****Patient Setting must have below tabs:" + element.getText());	
+		}
+	}
+
+	@Then("^validate mandatory field setting$")
+	public void validate_mandatory_field_setting() throws Throwable {
+		String xpath = "(((//*[@class='row'])[7]/..//div)[5]/div/..//div/div/input)[";
+		String fullXpath;
+		List<WebElement> element= driver.findElements(By.xpath("((//*[@class='row'])[7]/..//div)[5]/div/..//input"));
+		for(int i=3;i<=element.size();i++)
+		{
+			fullXpath = xpath+i+"]";
+			WebElement element1 = driver.findElement(By.xpath(fullXpath));
+			clickElementByElement(element1);			
+			normalWait(300);
+			driver.findElement(By.xpath("(//*[text()='Save'])[2]")).click();
+			for(int j=0;j<1;j++)
+			{
+				driver.findElement(By.xpath("(//*[@id='opd_navigation'])[2]")).click();
+				addpd =new AddPatientDetails(driver);
+				addpd.clickAdd_btn();
+				logger.info("*****click on Add button******");
+				addpd.click_Add_New_Patient_btn();
+				addpd.clickappointmentbtn();
+				logger.info("*****Without filling mandatory field clicking on Appointment button******");
+				String warnmsgclor=driver.findElement(By.xpath("//*[text()='First Name']")).getCssValue("color");
+
+				if(warnmsgclor.contains("rgba(51, 51, 51, 1)"))
+				{
+					Reporter.addStepLog("The warning mesage is highlighting in RED color if user not filling the mandatory fields-->SUCCESS");
+					logger.info("*****The warning mesage is highlighting in RED color if user not filling the mandatory fields******");
+					normalWait(2000);
+					clickElementByXpath("//*[text()='Close']");
+					normalWait(1500);
+					expwait("//*[@class='fa-color user_logo']/..//i");
+				}
+				else
+				{
+					Reporter.addStepLog("The warning mesage is highlighting in RED color if user not filling the mandatory fields-->DEFECT");
+					logger.info("*****The warning mesage is not showing in RED color if user not filling the mandatory fields******");
+				}
+			}
+			//Test clicks on profile button
+			expwait("//*[@class='fa-color user_logo']/..//i");
+			normalWait(1500);
+			driver.findElement(By.id("setting_n_logout")).click();
+			logger.info("***********User click on Menu Setting button***********");
+			normalWait(1000);
+			driver.findElement(By.xpath("//*[@href='/admins/organisation_settings']")).click();
+			logger.info("***********User click on Organisation Setting button***********");
+			normalWait(1000);
+			driver.findElement(By.xpath("//*[@href='#manage_patient_form_settings']")).click();
+			logger.info("***********User click on Patient Setting button***********");
+			normalWait(1500);
+		}
+		
+	}
 }
 
