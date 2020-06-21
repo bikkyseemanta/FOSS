@@ -1,7 +1,5 @@
 package PatientRegistration;
-
 import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
@@ -10,7 +8,6 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-
 import com.cucumber.listener.Reporter;
 import commonMethod.Common_Methods;
 import cucumber.api.DataTable;
@@ -21,7 +18,6 @@ import pageObjects.LoginPage;
 public class Steps extends Common_Methods
 
 {
-
 	// Verify login with invalid credentials//
 
 	@Given("^open the browser and enter the URL \"([^\"]*)\"$")
@@ -90,7 +86,6 @@ public class Steps extends Common_Methods
 		Assert.assertEquals("Foss - EHR", lp.getPageTitle());
 		logger.info("****User successfully logged in and landed on OPD Home Page******");
 	}
-
 
 
 	//Create New Patients with mandatory fields------------------------------------------------------------------------------------------------------------------
@@ -303,6 +298,187 @@ public class Steps extends Common_Methods
 			Assert.assertEquals(element.getText(), listData.get(index));
 			index++;
 			logger.info("****Systemic History must have below tabs:" + element.getText());	
+		}
+	}
+	
+	@Then("^each Opthalmic History name should be clickable$")
+	public void each_Opthalmic_History_name_should_be_clickable() throws Throwable 
+	{
+		List<WebElement> opthahistory= addpd.opthalHistoryTab;
+		// Instead of using the for each loop, get the size of the list and iterate through it
+		for (int i=0; i<opthahistory.size(); i++) {
+			try {
+				opthahistory.get(i).click();
+
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				opthahistory = opthahistory= addpd.opthalHistoryTab;
+				opthahistory.get(i).click();
+			}
+		}
+	}
+
+	@Then("^select Left Duration for each Opthalmic tabs$")
+	public void select_Left_Duration_for_each_Opthalmic_tabs() throws Throwable 
+	{
+		List<WebElement> duration=driver.findElements(By.xpath("//*[@class='form-control speciality_fields_add_fields speciality_l_duration l_duration_field']"));
+		for (int j=0; j<duration.size(); j++) {
+			try {
+				duration.get(j).click();
+
+				List<WebElement> dropdownvalue=driver.findElements(By.xpath("//*[text()='4']"));
+				for (int k=0; k<dropdownvalue.size(); k++) {
+					try {
+						dropdownvalue.get(k).click();
+
+					} catch (StaleElementReferenceException e) {
+						// If the exception occurs, find the elements again and click on it
+						dropdownvalue = dropdownvalue= driver.findElements(By.xpath("//*[text()='4']"));
+						dropdownvalue.get(k).click();
+					}
+				}
+
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				duration = duration= driver.findElements(By.xpath("//*[@class='form-control speciality_fields_add_fields speciality_l_duration l_duration_field']"));
+				duration.get(j).click();
+			}
+		}
+
+	}
+
+	@Then("^select Left Duration Units for each Opthalmic tab$")
+	public void select_Left_Duration_Units_for_each_Opthalmic_tab() throws Throwable 
+	{
+		List<WebElement> durationUnits=driver.findElements(By.xpath("//*[@class='form-control speciality_fields_add_fields speciality_l_duration_unit l_duration_unit']"));
+		for (int j=0; j<durationUnits.size(); j++) {
+			try {
+				durationUnits.get(j).click();
+
+				List<WebElement> dropdownvalue=driver.findElements(By.xpath("//*[text()='Weeks']"));
+				for (int k=0; k<dropdownvalue.size(); k++) {
+					try {
+						dropdownvalue.get(k).click();
+
+					} catch (StaleElementReferenceException e) {
+						// If the exception occurs, find the elements again and click on it
+						dropdownvalue = dropdownvalue= driver.findElements(By.xpath("//*[text()='Weeks']"));
+						dropdownvalue.get(k).click();
+					}
+				}
+
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				durationUnits = durationUnits= driver.findElements(By.xpath("//*[@class='form-control speciality_fields_add_fields speciality_l_duration_unit l_duration_unit']"));
+				durationUnits.get(j).click();
+			}
+		}
+	}
+
+	@Then("^fill comments for each Opthalmic History Comment$")
+	public void fill_comments_for_each_Opthalmic_History_Comment() throws Throwable 
+	{
+
+		List<WebElement> comments =driver.findElements(By.xpath("//input[@class='form-control personal_field_add_field']"));
+		for (int j=0; j<comments.size(); j++) {
+			try {
+				comments.get(j).sendKeys("Opthalmic History Comments");
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				comments = comments= driver.findElements(By.xpath("//input[@class='form-control personal_field_add_comment']"));
+				comments.get(j).sendKeys(" Exception Opthalmic History Comments");
+			}
+		}
+	}
+
+	@Then("^each Systemic History name should be clickable$")
+	public void each_Systemic_History_name_should_be_clickable() throws Throwable 
+	{
+		List<WebElement> Systhistory= addpd.systemicHistoryTab;
+		// Instead of using the for each loop, get the size of the list and iterate through it
+		for (int i=0; i<Systhistory.size(); i++) {
+			try {
+				Systhistory.get(i).click();
+
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				Systhistory = Systhistory= addpd.systemicHistoryTab;
+				Systhistory.get(i).click();
+			}
+		}
+	}
+
+	@Then("^select Duration for each Systemic tabs$")
+	public void select_Duration_for_each_Systemic_tabs() throws Throwable 
+	{
+		List<WebElement> duration=driver.findElements(By.xpath("(//*[@class='form-control personal_field_add_field duration_field '])"));
+		for (int j=0; j<duration.size(); j++) {
+			try {
+				duration.get(j).click();
+
+				List<WebElement> dropdownvalue=driver.findElements(By.xpath("//*[text()='4']"));
+				for (int k=0; k<dropdownvalue.size(); k++) {
+					try {
+						dropdownvalue.get(k).click();
+
+					} catch (StaleElementReferenceException e) {
+						// If the exception occurs, find the elements again and click on it
+						dropdownvalue = dropdownvalue= driver.findElements(By.xpath("//*[text()='4']"));
+						dropdownvalue.get(k).click();
+					}
+				}
+
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				duration = duration= driver.findElements(By.xpath("(//*[@class='form-control personal_field_add_field duration_field '])"));
+				duration.get(j).click();
+			}
+		}
+
+	}
+
+	@Then("^select Duration Units for each Systemic tab$")
+	public void select_Duration_Units_for_each_Systemic_tab() throws Throwable 
+	{
+		List<WebElement> durationUnits=driver.findElements(By.xpath("//*[@class='form-control personal_field_add_field  duration_unit']"));
+		for (int j=0; j<durationUnits.size(); j++) {
+			try {
+				durationUnits.get(j).click();
+
+				List<WebElement> dropdownvalue=driver.findElements(By.xpath("//*[text()='Weeks']"));
+				for (int k=0; k<dropdownvalue.size(); k++) {
+					try {
+						dropdownvalue.get(k).click();
+
+					} catch (StaleElementReferenceException e) {
+						// If the exception occurs, find the elements again and click on it
+						dropdownvalue = dropdownvalue= driver.findElements(By.xpath("//*[text()='Weeks']"));
+						dropdownvalue.get(k).click();
+					}
+				}
+
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				durationUnits = durationUnits= driver.findElements(By.xpath("//*[@class='form-control personal_field_add_field  duration_unit']"));
+				durationUnits.get(j).click();
+			}
+		}
+		
+	}
+
+	@Then("^fill comments for each Systemic History Comment$")
+	public void fill_comments_for_each_Systemic_History_Comment() throws Throwable
+	{
+
+		List<WebElement> comments =driver.findElements(By.xpath("//*[@class='form-control personal_field_add_comment']/..//input[1]"));
+		for (int j=0; j<comments.size(); j++) {
+			try {
+				comments.get(j).sendKeys("Systemic History Comments");
+			} catch (StaleElementReferenceException e) {
+				// If the exception occurs, find the elements again and click on it
+				comments = comments= driver.findElements(By.xpath("//*[@class='form-control personal_field_add_comment']/..//input[1]"));
+				comments.get(j).sendKeys(" Systemic History Comments");
+			}
 		}
 	}
 
@@ -1011,13 +1187,13 @@ public class Steps extends Common_Methods
 	public void each_Contact_Allergies_name_should_be_display() throws Throwable 
 	{
 
-		List<WebElement> menuLinks = driver.findElements(By.xpath("col-md-12 col-sm-12 col-xs-12 complaint_name allergies_fields_row_count alcohol_fields contact_allergies_hide"));
+		List<WebElement> menuLinks = driver.findElements(By.xpath("//*[@class='col-md-12 col-sm-12 col-xs-12 complaint_name allergies_fields_row_count alcohol_fields contact_allergies_hide']/..//h5"));
 
 		// Print the number of links present..
 		System.out.println(menuLinks.size());
 		for (WebElement option : menuLinks) {
 			String linkName = option.getText();
-			logger.info("****Eye Drops must have this tab:" + linkName);
+			logger.info("****Contact Allergy must have this tab:" + linkName);
 		}
 
 	}
@@ -1114,8 +1290,8 @@ public class Steps extends Common_Methods
 	@Then("^each Food Allergies name should be display$")
 	public void each_Food_Allergies_name_should_be_display() throws Throwable 
 	{
-		List<WebElement> menuLinks = driver.findElements(By.xpath("col-md-12 col-sm-12 col-xs-12 complaint_name allergies_fields_row_count all_seafood_fields food_allergies_hide"));
-
+		List<WebElement> menuLinks = driver.findElements(By.xpath("//*[@class='col-md-12 col-sm-12 col-xs-12 complaint_name allergies_fields_row_count all_seafood_fields food_allergies_hide']/..//h5"));
+		
 		// Print the number of links present..
 		System.out.println(menuLinks.size());
 		for (WebElement option : menuLinks) {

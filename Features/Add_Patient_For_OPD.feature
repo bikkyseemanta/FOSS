@@ -60,6 +60,10 @@ And Opthalmic History have below tabs
  |Eye Surgery|
  |Uveitis|
  |Retinal laser|
+Then each Opthalmic History name should be clickable
+ And select Left Duration for each Opthalmic tabs
+ And select Left Duration Units for each Opthalmic tab
+ And fill comments for each Opthalmic History Comment
 Then add comments inside Opthalmic Hitory
 And Systemic History have below tabs
  | Diabetes |
@@ -84,6 +88,10 @@ And Systemic History have below tabs
  |Consanguinity|
  |Thyroid Disorder|
  |Chewing Tobacco|
+Then each Systemic History name should be clickable
+ And select Duration for each Systemic tabs
+ And select Duration Units for each Systemic tab
+ And fill comments for each Systemic History Comment 
 Then add comments inside Systemic Hitory
 And add Medical History
 Then add Family history 

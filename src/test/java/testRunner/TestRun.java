@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 		strict = false,
 		format =
 	{"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
-	tags = {"@Validate_History_Tab"},
+	tags = {"@Validate_History_Tab,@Validate_Allergies_Tab"},
 	plugin= {"pretty","html:test-output"})
 
 public class TestRun {
