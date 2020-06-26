@@ -9,8 +9,8 @@ Then click on Add New Patient button
 
 @CreatePatientWithMandatoryFields
 Scenario Outline: Create Appointment for OPD by adding mandatory fields
-Then User should see a modal having the header "Search Patient or Add New Patient"
-Then Validate all the fields contains in add_new_patient modal
+#Then User should see a modal having the header "Search Patient or Add New Patient"
+#Then Validate all the fields contains in add_new_patient modal
 And Modal must have below mentioned tabs
       | Patient Details |
       | Other Details   |
@@ -211,7 +211,7 @@ Then validate each tabs of Nsaids
  #And select Duration for each Contact Allergies
  #And select Duration Units for each Contact Allergies
  #And fill comments for each Contact Allergies
- #Then validate each tabs of Food Allergies
+ Then validate each tabs of Food Allergies
  Then each Food Allergies name should be display
  #And select Duration for each Food Allergies
  #And select Duration Units for each Food Allergies

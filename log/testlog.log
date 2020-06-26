@@ -1,693 +1,293 @@
-2020-06-19 18:59:57,798 - HealthGraph -INFO - *****Launching browser******
-2020-06-19 18:59:58,032 - HealthGraph -INFO - *****Successfully Entered Username and Password******
-2020-06-19 19:00:00,079 - HealthGraph -INFO - *****After entering credentials user clicks on Login button******
-2020-06-19 19:00:04,122 - HealthGraph -INFO - *****User successfully logged in and landed on OPD Home Page******
-2020-06-19 19:00:04,945 - HealthGraph -INFO - *****click on Add button******
-2020-06-19 19:00:05,874 - HealthGraph -INFO - *****click on Add New Patient button******
-2020-06-19 19:00:05,966 - HealthGraph -INFO - ****Modal must have below tabs:Patient Details
-2020-06-19 19:00:05,990 - HealthGraph -INFO - ****Modal must have below tabs:Other Details
-2020-06-19 19:00:06,013 - HealthGraph -INFO - ****Modal must have below tabs:History
-2020-06-19 19:00:06,035 - HealthGraph -INFO - ****Modal must have below tabs:Allergies
-2020-06-19 19:00:06,266 - HealthGraph -INFO - *****Without filling mandatory field clicking on Appointment button******
-2020-06-19 19:00:06,302 - HealthGraph -INFO - *****The warning mesage is highlighting in RED color if user not filling the mandatory fields******
-2020-06-19 19:00:06,744 - HealthGraph -INFO - *****User entered mandatory fields such as First name and Mob no******
-2020-06-19 19:00:07,044 - HealthGraph -INFO - *********Salution Values are--> 
-2020-06-19 19:00:07,065 - HealthGraph -INFO - *********Salution Values are-->Mr.
-2020-06-19 19:00:07,086 - HealthGraph -INFO - *********Salution Values are-->Mrs.
-2020-06-19 19:00:07,103 - HealthGraph -INFO - *********Salution Values are-->Ms.
-2020-06-19 19:00:07,115 - HealthGraph -INFO - *********Salution Values are-->Mx.
-2020-06-19 19:00:07,127 - HealthGraph -INFO - *********Salution Values are-->Dr.
-2020-06-19 19:00:07,139 - HealthGraph -INFO - *********Salution Values are-->Mst.
-2020-06-19 19:00:07,139 - HealthGraph -INFO - *********Salution Values are-->Baby
-2020-06-19 19:00:07,155 - HealthGraph -INFO - *********Salution Values are-->Sr.
-2020-06-19 19:00:07,353 - HealthGraph -INFO - *****User successfully click on Create Appointment button******
-2020-06-19 19:00:18,312 - HealthGraph -INFO - *****Launching browser******
-2020-06-19 19:00:18,537 - HealthGraph -INFO - *****Successfully Entered Username and Password******
-2020-06-19 19:00:19,961 - HealthGraph -INFO - *****After entering credentials user clicks on Login button******
-2020-06-19 19:00:23,992 - HealthGraph -INFO - *****User successfully logged in and landed on OPD Home Page******
-2020-06-19 19:00:24,695 - HealthGraph -INFO - *****click on Add button******
-2020-06-19 19:00:26,042 - HealthGraph -INFO - *****click on Add New Patient button******
-2020-06-19 19:00:32,375 - HealthGraph -INFO - *******User sucessfully create an appointment by entering all fields under Patient details tab********
-2020-06-19 19:00:32,410 - HealthGraph -INFO - *******User clicks in Other Details********
-2020-06-19 19:00:32,464 - HealthGraph -INFO - *******User selected blood group********
-2020-06-19 19:00:32,504 - HealthGraph -INFO - *******User selected Maritial status********
-2020-06-19 19:00:32,820 - HealthGraph -INFO - *******User filled emergency Name and Contact number********
-2020-06-19 19:00:32,878 - HealthGraph -INFO - *******User selected Special status********
-2020-06-19 19:00:32,912 - HealthGraph -INFO - *******User clicks on History tab********
-2020-06-19 19:00:32,969 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-19 19:00:32,989 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-19 19:00:33,007 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-19 19:00:33,026 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-19 19:00:33,046 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-19 19:00:33,064 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-19 19:00:33,084 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-19 19:00:33,467 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-19 19:00:33,485 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-19 19:00:33,509 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-19 19:00:33,533 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-19 19:00:33,553 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-19 19:00:33,573 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-19 19:00:33,599 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-19 19:00:33,621 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-19 19:00:33,642 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-19 19:00:33,663 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-19 19:00:33,686 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-19 19:00:33,713 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-19 19:00:33,738 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-19 19:00:33,764 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-19 19:00:33,790 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-19 19:00:33,814 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-19 19:00:33,835 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-19 19:00:33,858 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-19 19:00:33,881 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-19 19:00:33,905 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-19 19:00:33,929 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-19 19:00:33,954 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-19 19:00:34,956 - HealthGraph -INFO - ****Drug Allergies must have below tabs:Antimicrobial Agents
-2020-06-19 19:00:34,975 - HealthGraph -INFO - ****Drug Allergies must have below tabs:Antifungal Agents
-2020-06-19 19:00:34,995 - HealthGraph -INFO - ****Drug Allergies must have below tabs:Antiviral Agents
-2020-06-19 19:00:35,015 - HealthGraph -INFO - ****Drug Allergies must have below tabs:Nsaids
-2020-06-19 19:00:35,035 - HealthGraph -INFO - ****Drug Allergies must have below tabs:Eye Drops
-2020-06-19 19:00:35,223 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Ampicillin
-2020-06-19 19:00:35,255 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Amoxicillin
-2020-06-19 19:00:35,285 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Ceftriaxone
-2020-06-19 19:00:35,306 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Ciprofloxacin
-2020-06-19 19:00:35,329 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Clarithromycin
-2020-06-19 19:00:35,355 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Co Trimoxazole
-2020-06-19 19:00:35,378 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Ethambutol
-2020-06-19 19:00:35,398 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Isoniazid
-2020-06-19 19:00:35,444 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Metronidazole
-2020-06-19 19:00:35,466 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Penicillin
-2020-06-19 19:00:35,487 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Rifampicin
-2020-06-19 19:00:35,506 - HealthGraph -INFO - ****Antimicrobial agents must have below tabs:Streptomycin
-2020-06-19 19:00:35,679 - HealthGraph -INFO - ****Antifungal agents must have below tabs:Ketoconazole
-2020-06-19 19:00:35,712 - HealthGraph -INFO - ****Antifungal agents must have below tabs:Fluconazole
-2020-06-19 19:00:35,752 - HealthGraph -INFO - ****Antifungal agents must have below tabs:Itraconazole
-2020-06-19 19:00:35,938 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Acyclovir
-2020-06-19 19:00:35,972 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Efavirenz
-2020-06-19 19:00:36,000 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Enfuvirtide
-2020-06-19 19:00:36,023 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Nelfinavir
-2020-06-19 19:00:36,044 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Nevirapine
-2020-06-19 19:00:36,065 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Zidovudine
-2020-06-19 19:00:36,244 - HealthGraph -INFO - ****Nsaids must have below tabs:Aspirin
-2020-06-19 19:00:36,276 - HealthGraph -INFO - ****Nsaids must have below tabs:Paracetamol
-2020-06-19 19:00:36,306 - HealthGraph -INFO - ****Nsaids must have below tabs:Ibuprofen
-2020-06-19 19:00:36,329 - HealthGraph -INFO - ****Nsaids must have below tabs:Diclofenac
-2020-06-19 19:00:36,352 - HealthGraph -INFO - ****Nsaids must have below tabs:Aceclofenac
-2020-06-19 19:00:36,375 - HealthGraph -INFO - ****Nsaids must have below tabs:Naproxen
-2020-06-19 19:00:36,571 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicamide_P
-2020-06-19 19:00:36,604 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicamide
-2020-06-19 19:00:36,628 - HealthGraph -INFO - ****EyeDrops must have below tabs:Timolol
-2020-06-19 19:00:36,649 - HealthGraph -INFO - ****EyeDrops must have below tabs:Homide
-2020-06-19 19:00:36,670 - HealthGraph -INFO - ****EyeDrops must have below tabs:Latanoprost
-2020-06-19 19:00:36,694 - HealthGraph -INFO - ****EyeDrops must have below tabs:Brimonidine
-2020-06-19 19:00:36,717 - HealthGraph -INFO - ****EyeDrops must have below tabs:Travoprost
-2020-06-19 19:00:36,734 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tobramycin
-2020-06-19 19:00:36,753 - HealthGraph -INFO - ****EyeDrops must have below tabs:Moxifloxacin
-2020-06-19 19:00:36,774 - HealthGraph -INFO - ****EyeDrops must have below tabs:Homatropine
-2020-06-19 19:00:36,794 - HealthGraph -INFO - ****EyeDrops must have below tabs:Pilocarpine
-2020-06-19 19:00:36,813 - HealthGraph -INFO - ****EyeDrops must have below tabs:Cyclopentolate
-2020-06-19 19:00:36,836 - HealthGraph -INFO - ****EyeDrops must have below tabs:Atropine
-2020-06-19 19:00:36,858 - HealthGraph -INFO - ****EyeDrops must have below tabs:Phenylephrine
-2020-06-19 19:00:36,899 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicacyl
-2020-06-19 19:00:36,919 - HealthGraph -INFO - ****EyeDrops must have below tabs:Paracain
-2020-06-19 19:00:36,938 - HealthGraph -INFO - ****EyeDrops must have below tabs:Ciplox
-2020-06-19 19:00:36,972 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Alcohol
-2020-06-19 19:00:36,993 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Latex
-2020-06-19 19:00:37,013 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Betadine
-2020-06-19 19:00:37,032 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Adhesive Tape
-2020-06-19 19:00:37,053 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Tegaderm
-2020-06-19 19:00:37,074 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Transpore
-2020-06-19 19:00:37,113 - HealthGraph -INFO - ****Food Allergies must have below tabs:All Seafood
-2020-06-19 19:00:37,133 - HealthGraph -INFO - ****Food Allergies must have below tabs:Corn
-2020-06-19 19:00:37,154 - HealthGraph -INFO - ****Food Allergies must have below tabs:Egg
-2020-06-19 19:00:37,174 - HealthGraph -INFO - ****Food Allergies must have below tabs:Milk Proteins
-2020-06-19 19:00:37,197 - HealthGraph -INFO - ****Food Allergies must have below tabs:Peanuts
-2020-06-19 19:00:37,221 - HealthGraph -INFO - ****Food Allergies must have below tabs:Shellfish Only
-2020-06-19 19:00:37,244 - HealthGraph -INFO - ****Food Allergies must have below tabs:Soy Protein
-2020-06-19 19:00:37,265 - HealthGraph -INFO - ****Food Allergies must have below tabs:Lactose
-2020-06-19 19:00:37,287 - HealthGraph -INFO - ****Food Allergies must have below tabs:Mushroom
-2020-06-19 19:00:38,165 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ampicillin
-2020-06-19 19:00:38,178 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Amoxicillin
-2020-06-19 19:00:38,193 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ceftriaxone
-2020-06-19 19:00:38,208 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ciprofloxacin
-2020-06-19 19:00:38,223 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Clarithromycin
-2020-06-19 19:00:38,239 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Co Trimoxazole
-2020-06-19 19:00:38,255 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ethambutol
-2020-06-19 19:00:38,280 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Isoniazid
-2020-06-19 19:00:38,304 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Metronidazole
-2020-06-19 19:00:38,331 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Penicillin
-2020-06-19 19:00:38,357 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Rifampicin
-2020-06-19 19:00:38,376 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Streptomycin
-2020-06-19 19:00:57,787 - HealthGraph -INFO - ****Antifungal agent must have this tab:Ketoconazole
-2020-06-19 19:00:57,802 - HealthGraph -INFO - ****Antifungal agent must have this tab:Fluconazole
-2020-06-19 19:00:57,826 - HealthGraph -INFO - ****Antifungal agent must have this tab:Itraconazole
-2020-06-19 19:01:03,679 - HealthGraph -INFO - ****Antiviral agent must have this tab:Acyclovir
-2020-06-19 19:01:03,693 - HealthGraph -INFO - ****Antiviral agent must have this tab:Efavirenz
-2020-06-19 19:01:03,708 - HealthGraph -INFO - ****Antiviral agent must have this tab:Enfuvirtide
-2020-06-19 19:01:03,722 - HealthGraph -INFO - ****Antiviral agent must have this tab:Nelfinavir
-2020-06-19 19:01:03,736 - HealthGraph -INFO - ****Antiviral agent must have this tab:Nevirapine
-2020-06-19 19:01:03,752 - HealthGraph -INFO - ****Antiviral agent must have this tab:Zidovudine
-2020-06-19 19:01:17,262 - HealthGraph -INFO - ****NSAIDS must have this tab:Aspirin
-2020-06-19 19:01:17,276 - HealthGraph -INFO - ****NSAIDS must have this tab:Paracetamol
-2020-06-19 19:01:17,290 - HealthGraph -INFO - ****NSAIDS must have this tab:Ibuprofen
-2020-06-19 19:01:17,306 - HealthGraph -INFO - ****NSAIDS must have this tab:Diclofenac
-2020-06-19 19:01:17,319 - HealthGraph -INFO - ****NSAIDS must have this tab:Aceclofenac
-2020-06-19 19:01:17,336 - HealthGraph -INFO - ****NSAIDS must have this tab:Naproxen
-2020-06-19 19:01:34,758 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicamide P
-2020-06-19 19:01:34,785 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicamide
-2020-06-19 19:01:34,799 - HealthGraph -INFO - ****Eye Drops must have this tab:Timolol
-2020-06-19 19:01:34,813 - HealthGraph -INFO - ****Eye Drops must have this tab:Homide
-2020-06-19 19:01:34,828 - HealthGraph -INFO - ****Eye Drops must have this tab:Latanoprost
-2020-06-19 19:01:34,843 - HealthGraph -INFO - ****Eye Drops must have this tab:Brimonidine
-2020-06-19 19:01:34,860 - HealthGraph -INFO - ****Eye Drops must have this tab:Travoprost
-2020-06-19 19:01:34,878 - HealthGraph -INFO - ****Eye Drops must have this tab:Tobramycin
-2020-06-19 19:01:34,893 - HealthGraph -INFO - ****Eye Drops must have this tab:Moxifloxacin
-2020-06-19 19:01:34,906 - HealthGraph -INFO - ****Eye Drops must have this tab:Homatropine
-2020-06-19 19:01:34,919 - HealthGraph -INFO - ****Eye Drops must have this tab:Pilocarpine
-2020-06-19 19:01:34,932 - HealthGraph -INFO - ****Eye Drops must have this tab:Cyclopentolate
-2020-06-19 19:01:34,944 - HealthGraph -INFO - ****Eye Drops must have this tab:Atropine
-2020-06-19 19:01:34,982 - HealthGraph -INFO - ****Eye Drops must have this tab:Phenylephrine
-2020-06-19 19:01:34,995 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicacyl
-2020-06-19 19:01:35,008 - HealthGraph -INFO - ****Eye Drops must have this tab:Paracain
-2020-06-19 19:01:35,021 - HealthGraph -INFO - ****Eye Drops must have this tab:Ciplox
-2020-06-19 19:12:05,521 - HealthGraph -INFO - *****Launching browser******
-2020-06-19 19:12:05,762 - HealthGraph -INFO - *****Successfully Entered Username and Password******
-2020-06-19 19:12:07,305 - HealthGraph -INFO - *****After entering credentials user clicks on Login button******
-2020-06-19 19:12:11,345 - HealthGraph -INFO - *****User successfully logged in and landed on OPD Home Page******
-2020-06-19 19:12:12,150 - HealthGraph -INFO - *****click on Add button******
-2020-06-19 19:12:13,140 - HealthGraph -INFO - *****click on Add New Patient button******
-2020-06-19 19:12:13,503 - HealthGraph -INFO - *****User entered mandatory fields such as First name and Mob no******
-2020-06-19 19:12:13,548 - HealthGraph -INFO - *******User clicks on History tab********
-2020-06-19 19:12:13,595 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-19 19:12:13,617 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-19 19:12:13,638 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-19 19:12:13,662 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-19 19:12:13,683 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-19 19:12:13,704 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-19 19:12:13,732 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-19 19:12:14,095 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-19 19:12:14,116 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-19 19:12:14,136 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-19 19:12:14,156 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-19 19:12:14,181 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-19 19:12:14,201 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-19 19:12:14,223 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-19 19:12:14,248 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-19 19:12:14,268 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-19 19:12:14,288 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-19 19:12:14,311 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-19 19:12:14,332 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-19 19:12:14,355 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-19 19:12:14,376 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-19 19:12:14,397 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-19 19:12:14,417 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-19 19:12:14,438 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-19 19:12:14,457 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-19 19:12:14,477 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-19 19:12:14,497 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-19 19:12:14,519 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-19 19:12:14,539 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-19 19:12:15,708 - HealthGraph -INFO - *****User successfully click on Create Appointment button******
-2020-06-20 18:01:00,221 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 11:25:57,364 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 11:25:58,118 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 11:25:59,768 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 11:26:03,800 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 11:26:04,976 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 11:26:05,682 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 11:26:06,179 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 11:26:06,244 - HealthGraph -INFO - ****User clicks on History tab********
-2020-06-21 11:26:06,495 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-21 11:26:06,526 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-21 11:26:06,553 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-21 11:26:06,573 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-21 11:26:06,592 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-21 11:26:06,610 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-21 11:26:06,629 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-21 11:26:16,275 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-21 11:26:16,297 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-21 11:26:16,314 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-21 11:26:16,332 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-21 11:26:16,356 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-21 11:26:16,375 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-21 11:26:16,395 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-21 11:26:16,415 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-21 11:26:16,445 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-21 11:26:16,463 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-21 11:26:16,482 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-21 11:26:16,501 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-21 11:26:16,524 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-21 11:26:16,547 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-21 11:26:16,566 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-21 11:26:16,586 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-21 11:26:16,609 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-21 11:26:16,630 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-21 11:26:16,650 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-21 11:26:16,669 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-21 11:26:16,688 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-21 11:26:16,706 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-21 11:27:49,266 - HealthGraph -INFO - **** User successfully entered Systemic History comments******
-2020-06-21 11:27:50,489 - HealthGraph -INFO - **** User successfully entered Medical History comments******
-2020-06-21 11:27:51,836 - HealthGraph -INFO - **** User successfully entered Family History comments******
-2020-06-21 11:27:52,082 - HealthGraph -INFO - ****User successfully click on Create Appointment button******
-2020-06-21 11:52:33,553 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 11:52:33,782 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 11:52:35,315 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 11:52:39,355 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 11:52:40,271 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 11:52:41,186 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 11:52:41,551 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 11:52:41,583 - HealthGraph -INFO - ****User clicks on History tab********
-2020-06-21 11:52:41,639 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-21 11:52:41,656 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-21 11:52:41,672 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-21 11:52:41,687 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-21 11:52:41,719 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-21 11:52:41,734 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-21 11:52:41,750 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-21 11:52:43,070 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-21 11:52:43,089 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-21 11:52:43,105 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-21 11:52:43,120 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-21 11:52:43,151 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-21 11:52:43,167 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-21 11:52:43,183 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-21 11:52:43,214 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-21 11:52:43,230 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-21 11:52:43,261 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-21 11:52:43,276 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-21 11:52:43,292 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-21 11:52:43,323 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-21 11:52:43,339 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-21 11:52:43,354 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-21 11:52:43,370 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-21 11:52:43,401 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-21 11:52:43,417 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-21 11:52:43,433 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-21 11:52:43,472 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-21 11:52:43,495 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-21 11:52:43,516 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-21 11:56:34,283 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 11:56:34,503 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 11:56:35,979 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 11:56:40,020 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 11:56:40,864 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 11:56:41,842 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 11:56:42,238 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 11:56:42,315 - HealthGraph -INFO - ****User clicks on History tab********
-2020-06-21 11:56:42,360 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-21 11:56:42,375 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-21 11:56:42,406 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-21 11:56:42,422 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-21 11:56:42,442 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-21 11:56:42,457 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-21 11:56:42,489 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-21 11:56:43,846 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-21 11:56:43,869 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-21 11:56:43,885 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-21 11:56:43,916 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-21 11:56:43,931 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-21 11:56:43,962 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-21 11:56:43,978 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-21 11:56:44,009 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-21 11:56:44,025 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-21 11:56:44,047 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-21 11:56:44,078 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-21 11:56:44,094 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-21 11:56:44,109 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-21 11:56:44,141 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-21 11:56:44,163 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-21 11:56:44,178 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-21 11:56:44,216 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-21 11:56:44,245 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-21 11:56:44,258 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-21 11:56:44,296 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-21 11:56:44,317 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-21 11:56:44,339 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-21 11:58:08,519 - HealthGraph -INFO - **** User successfully entered Systemic History comments******
-2020-06-21 11:58:09,742 - HealthGraph -INFO - **** User successfully entered Medical History comments******
-2020-06-21 11:58:10,905 - HealthGraph -INFO - **** User successfully entered Family History comments******
-2020-06-21 11:58:11,210 - HealthGraph -INFO - ****User successfully click on Create Appointment button******
-2020-06-21 12:06:00,015 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 12:06:00,297 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 12:06:01,737 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 12:06:05,740 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 12:06:06,559 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 12:06:07,280 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 12:06:07,637 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 12:06:07,677 - HealthGraph -INFO - ****User clicks on History tab********
-2020-06-21 12:06:07,722 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-21 12:06:07,732 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-21 12:06:07,763 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-21 12:06:07,779 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-21 12:06:07,794 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-21 12:06:07,810 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-21 12:06:07,841 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-21 12:06:13,396 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-21 12:06:13,428 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-21 12:06:13,444 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-21 12:06:13,459 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-21 12:06:13,490 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-21 12:06:13,506 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-21 12:06:13,537 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-21 12:06:13,553 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-21 12:06:13,584 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-21 12:06:13,600 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-21 12:06:13,631 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-21 12:06:13,647 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-21 12:06:13,662 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-21 12:06:13,694 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-21 12:06:13,709 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-21 12:06:13,725 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-21 12:06:13,756 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-21 12:06:13,772 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-21 12:06:13,803 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-21 12:06:13,819 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-21 12:06:13,850 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-21 12:06:13,865 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-21 12:07:37,278 - HealthGraph -INFO - **** User successfully entered Systemic History comments******
-2020-06-21 12:07:38,521 - HealthGraph -INFO - **** User successfully entered Medical History comments******
-2020-06-21 12:07:39,677 - HealthGraph -INFO - **** User successfully entered Family History comments******
-2020-06-21 12:07:39,966 - HealthGraph -INFO - ****User successfully click on Create Appointment button******
-2020-06-21 12:09:44,017 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 12:09:44,267 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 12:09:45,633 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 12:09:49,667 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 12:09:50,520 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 12:09:51,317 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 12:09:51,703 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 12:09:51,733 - HealthGraph -INFO - ****User clicks on History tab********
-2020-06-21 12:09:51,784 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-21 12:09:51,802 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-21 12:09:51,820 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-21 12:09:51,836 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-21 12:09:51,851 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-21 12:09:51,867 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-21 12:09:51,898 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-21 12:09:57,545 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-21 12:09:57,569 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-21 12:09:57,585 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-21 12:09:57,600 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-21 12:09:57,632 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-21 12:09:57,645 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-21 12:09:57,676 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-21 12:09:57,692 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-21 12:09:57,723 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-21 12:09:57,738 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-21 12:09:57,761 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-21 12:09:57,776 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-21 12:09:57,807 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-21 12:09:57,823 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-21 12:09:57,845 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-21 12:09:57,861 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-21 12:09:57,892 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-21 12:09:57,908 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-21 12:09:57,939 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-21 12:09:57,961 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-21 12:09:57,977 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-21 12:09:57,992 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-21 12:11:21,125 - HealthGraph -INFO - **** User successfully entered Systemic History comments******
-2020-06-21 12:11:22,392 - HealthGraph -INFO - **** User successfully entered Medical History comments******
-2020-06-21 12:11:23,536 - HealthGraph -INFO - **** User successfully entered Family History comments******
-2020-06-21 12:11:23,800 - HealthGraph -INFO - ****User successfully click on Create Appointment button******
-2020-06-21 12:11:35,458 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 12:11:35,804 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 12:11:37,237 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 12:11:41,256 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 12:11:42,059 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 12:11:42,912 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 12:11:43,284 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 12:11:43,314 - HealthGraph -INFO - ****User successfully clicked on Allergies tab******
-2020-06-21 12:11:43,360 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Antimicrobial Agents
-2020-06-21 12:11:43,379 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Antifungal Agents
-2020-06-21 12:11:43,399 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Antiviral Agents
-2020-06-21 12:11:43,414 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Nsaids
-2020-06-21 12:11:43,436 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Eye Drops
-2020-06-21 12:11:43,647 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ampicillin
-2020-06-21 12:11:43,690 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Amoxicillin
-2020-06-21 12:11:43,713 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ceftriaxone
-2020-06-21 12:11:43,737 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ciprofloxacin
-2020-06-21 12:11:43,757 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Clarithromycin
-2020-06-21 12:11:43,766 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Co Trimoxazole
-2020-06-21 12:11:43,797 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ethambutol
-2020-06-21 12:11:43,813 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Isoniazid
-2020-06-21 12:11:43,837 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Metronidazole
-2020-06-21 12:11:43,852 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Penicillin
-2020-06-21 12:11:43,868 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Rifampicin
-2020-06-21 12:11:43,899 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Streptomycin
-2020-06-21 12:11:44,098 - HealthGraph -INFO - ****Antifungal agents must have this tabs:Ketoconazole
-2020-06-21 12:11:44,124 - HealthGraph -INFO - ****Antifungal agents must have this tabs:Fluconazole
-2020-06-21 12:11:44,147 - HealthGraph -INFO - ****Antifungal agents must have this tabs:Itraconazole
-2020-06-21 12:11:44,363 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Acyclovir
-2020-06-21 12:11:44,390 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Efavirenz
-2020-06-21 12:11:44,410 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Enfuvirtide
-2020-06-21 12:11:44,431 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Nelfinavir
-2020-06-21 12:11:44,448 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Nevirapine
-2020-06-21 12:11:44,464 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Zidovudine
-2020-06-21 12:11:44,705 - HealthGraph -INFO - ****Nsaids must have below tabs:Aspirin
-2020-06-21 12:11:44,726 - HealthGraph -INFO - ****Nsaids must have below tabs:Paracetamol
-2020-06-21 12:11:44,747 - HealthGraph -INFO - ****Nsaids must have below tabs:Ibuprofen
-2020-06-21 12:11:44,767 - HealthGraph -INFO - ****Nsaids must have below tabs:Diclofenac
-2020-06-21 12:11:44,782 - HealthGraph -INFO - ****Nsaids must have below tabs:Aceclofenac
-2020-06-21 12:11:44,798 - HealthGraph -INFO - ****Nsaids must have below tabs:Naproxen
-2020-06-21 12:11:45,031 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicamide_P
-2020-06-21 12:11:45,056 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicamide
-2020-06-21 12:11:45,081 - HealthGraph -INFO - ****EyeDrops must have below tabs:Timolol
-2020-06-21 12:11:45,103 - HealthGraph -INFO - ****EyeDrops must have below tabs:Homide
-2020-06-21 12:11:45,115 - HealthGraph -INFO - ****EyeDrops must have below tabs:Latanoprost
-2020-06-21 12:11:45,130 - HealthGraph -INFO - ****EyeDrops must have below tabs:Brimonidine
-2020-06-21 12:11:45,161 - HealthGraph -INFO - ****EyeDrops must have below tabs:Travoprost
-2020-06-21 12:11:45,177 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tobramycin
-2020-06-21 12:11:45,192 - HealthGraph -INFO - ****EyeDrops must have below tabs:Moxifloxacin
-2020-06-21 12:11:45,223 - HealthGraph -INFO - ****EyeDrops must have below tabs:Homatropine
-2020-06-21 12:11:45,292 - HealthGraph -INFO - ****EyeDrops must have below tabs:Pilocarpine
-2020-06-21 12:11:45,308 - HealthGraph -INFO - ****EyeDrops must have below tabs:Cyclopentolate
-2020-06-21 12:11:45,330 - HealthGraph -INFO - ****EyeDrops must have below tabs:Atropine
-2020-06-21 12:11:45,346 - HealthGraph -INFO - ****EyeDrops must have below tabs:Phenylephrine
-2020-06-21 12:11:45,361 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicacyl
-2020-06-21 12:11:45,377 - HealthGraph -INFO - ****EyeDrops must have below tabs:Paracain
-2020-06-21 12:11:45,408 - HealthGraph -INFO - ****EyeDrops must have below tabs:Ciplox
-2020-06-21 12:11:45,446 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Alcohol
-2020-06-21 12:11:45,477 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Latex
-2020-06-21 12:11:45,500 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Betadine
-2020-06-21 12:11:45,521 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Adhesive Tape
-2020-06-21 12:11:45,543 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Tegaderm
-2020-06-21 12:11:45,564 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Transpore
-2020-06-21 12:11:45,603 - HealthGraph -INFO - ****Food Allergies must have below tabs:All Seafood
-2020-06-21 12:11:45,632 - HealthGraph -INFO - ****Food Allergies must have below tabs:Corn
-2020-06-21 12:11:45,654 - HealthGraph -INFO - ****Food Allergies must have below tabs:Egg
-2020-06-21 12:11:45,674 - HealthGraph -INFO - ****Food Allergies must have below tabs:Milk Proteins
-2020-06-21 12:11:45,693 - HealthGraph -INFO - ****Food Allergies must have below tabs:Peanuts
-2020-06-21 12:11:45,713 - HealthGraph -INFO - ****Food Allergies must have below tabs:Shellfish Only
-2020-06-21 12:11:45,734 - HealthGraph -INFO - ****Food Allergies must have below tabs:Soy Protein
-2020-06-21 12:11:45,755 - HealthGraph -INFO - ****Food Allergies must have below tabs:Lactose
-2020-06-21 12:11:45,783 - HealthGraph -INFO - ****Food Allergies must have below tabs:Mushroom
-2020-06-21 12:11:46,701 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ampicillin
-2020-06-21 12:11:46,717 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Amoxicillin
-2020-06-21 12:11:46,730 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ceftriaxone
-2020-06-21 12:11:46,746 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ciprofloxacin
-2020-06-21 12:11:46,759 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Clarithromycin
-2020-06-21 12:11:46,774 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Co Trimoxazole
-2020-06-21 12:11:46,789 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ethambutol
-2020-06-21 12:11:46,805 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Isoniazid
-2020-06-21 12:11:46,825 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Metronidazole
-2020-06-21 12:11:46,841 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Penicillin
-2020-06-21 12:11:46,857 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Rifampicin
-2020-06-21 12:11:46,871 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Streptomycin
-2020-06-21 12:12:04,175 - HealthGraph -INFO - ****Antifungal agent must have this tab:Ketoconazole
-2020-06-21 12:12:04,189 - HealthGraph -INFO - ****Antifungal agent must have this tab:Fluconazole
-2020-06-21 12:12:04,202 - HealthGraph -INFO - ****Antifungal agent must have this tab:Itraconazole
-2020-06-21 12:12:09,746 - HealthGraph -INFO - ****Antiviral agent must have this tab:Acyclovir
-2020-06-21 12:12:09,758 - HealthGraph -INFO - ****Antiviral agent must have this tab:Efavirenz
-2020-06-21 12:12:09,772 - HealthGraph -INFO - ****Antiviral agent must have this tab:Enfuvirtide
-2020-06-21 12:12:09,787 - HealthGraph -INFO - ****Antiviral agent must have this tab:Nelfinavir
-2020-06-21 12:12:09,801 - HealthGraph -INFO - ****Antiviral agent must have this tab:Nevirapine
-2020-06-21 12:12:09,816 - HealthGraph -INFO - ****Antiviral agent must have this tab:Zidovudine
-2020-06-21 12:12:22,732 - HealthGraph -INFO - ****NSAIDS must have this tab:Aspirin
-2020-06-21 12:12:22,747 - HealthGraph -INFO - ****NSAIDS must have this tab:Paracetamol
-2020-06-21 12:12:22,761 - HealthGraph -INFO - ****NSAIDS must have this tab:Ibuprofen
-2020-06-21 12:12:22,774 - HealthGraph -INFO - ****NSAIDS must have this tab:Diclofenac
-2020-06-21 12:12:22,788 - HealthGraph -INFO - ****NSAIDS must have this tab:Aceclofenac
-2020-06-21 12:12:22,802 - HealthGraph -INFO - ****NSAIDS must have this tab:Naproxen
-2020-06-21 12:12:39,285 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicamide P
-2020-06-21 12:12:39,299 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicamide
-2020-06-21 12:12:39,314 - HealthGraph -INFO - ****Eye Drops must have this tab:Timolol
-2020-06-21 12:12:39,329 - HealthGraph -INFO - ****Eye Drops must have this tab:Homide
-2020-06-21 12:12:39,343 - HealthGraph -INFO - ****Eye Drops must have this tab:Latanoprost
-2020-06-21 12:12:39,356 - HealthGraph -INFO - ****Eye Drops must have this tab:Brimonidine
-2020-06-21 12:12:39,368 - HealthGraph -INFO - ****Eye Drops must have this tab:Travoprost
-2020-06-21 12:12:39,381 - HealthGraph -INFO - ****Eye Drops must have this tab:Tobramycin
-2020-06-21 12:12:39,395 - HealthGraph -INFO - ****Eye Drops must have this tab:Moxifloxacin
-2020-06-21 12:12:39,410 - HealthGraph -INFO - ****Eye Drops must have this tab:Homatropine
-2020-06-21 12:12:39,429 - HealthGraph -INFO - ****Eye Drops must have this tab:Pilocarpine
-2020-06-21 12:12:39,442 - HealthGraph -INFO - ****Eye Drops must have this tab:Cyclopentolate
-2020-06-21 12:12:39,454 - HealthGraph -INFO - ****Eye Drops must have this tab:Atropine
-2020-06-21 12:12:39,470 - HealthGraph -INFO - ****Eye Drops must have this tab:Phenylephrine
-2020-06-21 12:12:39,470 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicacyl
-2020-06-21 12:12:39,517 - HealthGraph -INFO - ****Eye Drops must have this tab:Paracain
-2020-06-21 12:12:39,532 - HealthGraph -INFO - ****Eye Drops must have this tab:Ciplox
-2020-06-21 12:23:50,075 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 12:23:50,337 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 12:23:53,239 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 12:23:57,242 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 12:23:58,058 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 12:23:58,814 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 12:23:59,185 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 12:23:59,219 - HealthGraph -INFO - ****User clicks on History tab********
-2020-06-21 12:23:59,276 - HealthGraph -INFO - ****Opthal History must have below tabs:Glaucoma
-2020-06-21 12:23:59,289 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal Detachment
-2020-06-21 12:23:59,304 - HealthGraph -INFO - ****Opthal History must have below tabs:Glass
-2020-06-21 12:23:59,336 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Disease
-2020-06-21 12:23:59,351 - HealthGraph -INFO - ****Opthal History must have below tabs:Eye Surgery
-2020-06-21 12:23:59,367 - HealthGraph -INFO - ****Opthal History must have below tabs:Uveitis
-2020-06-21 12:23:59,382 - HealthGraph -INFO - ****Opthal History must have below tabs:Retinal laser
-2020-06-21 12:24:05,103 - HealthGraph -INFO - ****Systemic History must have below tabs:Diabetes
-2020-06-21 12:24:05,132 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypertension
-2020-06-21 12:24:05,153 - HealthGraph -INFO - ****Systemic History must have below tabs:Alcoholism
-2020-06-21 12:24:05,176 - HealthGraph -INFO - ****Systemic History must have below tabs:Smoking Tobacco
-2020-06-21 12:24:05,200 - HealthGraph -INFO - ****Systemic History must have below tabs:Cardiac Disorder
-2020-06-21 12:24:05,250 - HealthGraph -INFO - ****Systemic History must have below tabs:Steroid Intake
-2020-06-21 12:24:05,277 - HealthGraph -INFO - ****Systemic History must have below tabs:Drug Abuse
-2020-06-21 12:24:05,305 - HealthGraph -INFO - ****Systemic History must have below tabs:Hiv Aids
-2020-06-21 12:24:05,324 - HealthGraph -INFO - ****Systemic History must have below tabs:Cancer Tumor
-2020-06-21 12:24:05,345 - HealthGraph -INFO - ****Systemic History must have below tabs:Tuberculosis
-2020-06-21 12:24:05,369 - HealthGraph -INFO - ****Systemic History must have below tabs:Asthma
-2020-06-21 12:24:05,390 - HealthGraph -INFO - ****Systemic History must have below tabs:Cns Disorder Stroke
-2020-06-21 12:24:05,413 - HealthGraph -INFO - ****Systemic History must have below tabs:Hypothyroidism
-2020-06-21 12:24:05,420 - HealthGraph -INFO - ****Systemic History must have below tabs:Hyperthyroidism
-2020-06-21 12:24:05,435 - HealthGraph -INFO - ****Systemic History must have below tabs:Hepatitis Cirrhosis
-2020-06-21 12:24:05,477 - HealthGraph -INFO - ****Systemic History must have below tabs:Renal Disorder
-2020-06-21 12:24:05,502 - HealthGraph -INFO - ****Systemic History must have below tabs:Acidity
-2020-06-21 12:24:05,523 - HealthGraph -INFO - ****Systemic History must have below tabs:On insulin
-2020-06-21 12:24:05,542 - HealthGraph -INFO - ****Systemic History must have below tabs:On Aspirin Blood Thinners
-2020-06-21 12:24:05,566 - HealthGraph -INFO - ****Systemic History must have below tabs:Consanguinity
-2020-06-21 12:24:05,589 - HealthGraph -INFO - ****Systemic History must have below tabs:Thyroid Disorder
-2020-06-21 12:24:05,603 - HealthGraph -INFO - ****Systemic History must have below tabs:Chewing Tobacco
-2020-06-21 12:25:23,473 - HealthGraph -INFO - **** User successfully entered Systemic History comments******
-2020-06-21 12:25:24,681 - HealthGraph -INFO - **** User successfully entered Medical History comments******
-2020-06-21 12:25:25,827 - HealthGraph -INFO - **** User successfully entered Family History comments******
-2020-06-21 12:25:26,090 - HealthGraph -INFO - ****User successfully click on Create Appointment button******
-2020-06-21 12:25:40,482 - HealthGraph -INFO - ****Launching browser******
-2020-06-21 12:25:40,743 - HealthGraph -INFO - ****Successfully Entered Username and Password******
-2020-06-21 12:25:42,204 - HealthGraph -INFO - ****After entering credentials user clicks on Login button******
-2020-06-21 12:25:46,234 - HealthGraph -INFO - ****User successfully logged in and landed on OPD Home Page******
-2020-06-21 12:25:47,084 - HealthGraph -INFO - ****click on Add button******
-2020-06-21 12:25:49,400 - HealthGraph -INFO - ****click on Add New Patient button******
-2020-06-21 12:25:49,744 - HealthGraph -INFO - ****User entered mandatory fields such as First name and Mob no******
-2020-06-21 12:25:49,803 - HealthGraph -INFO - ****User successfully clicked on Allergies tab******
-2020-06-21 12:25:49,848 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Antimicrobial Agents
-2020-06-21 12:25:49,867 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Antifungal Agents
-2020-06-21 12:25:49,882 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Antiviral Agents
-2020-06-21 12:25:49,903 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Nsaids
-2020-06-21 12:25:49,918 - HealthGraph -INFO - ****Drug Allergies must have this tabs:Eye Drops
-2020-06-21 12:25:50,121 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ampicillin
-2020-06-21 12:25:50,159 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Amoxicillin
-2020-06-21 12:25:50,182 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ceftriaxone
-2020-06-21 12:25:50,204 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ciprofloxacin
-2020-06-21 12:25:50,225 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Clarithromycin
-2020-06-21 12:25:50,233 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Co Trimoxazole
-2020-06-21 12:25:50,264 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Ethambutol
-2020-06-21 12:25:50,279 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Isoniazid
-2020-06-21 12:25:50,311 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Metronidazole
-2020-06-21 12:25:50,326 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Penicillin
-2020-06-21 12:25:50,358 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Rifampicin
-2020-06-21 12:25:50,373 - HealthGraph -INFO - ****Antimicrobial agents must have this tabs:Streptomycin
-2020-06-21 12:25:50,572 - HealthGraph -INFO - ****Antifungal agents must have this tabs:Ketoconazole
-2020-06-21 12:25:50,608 - HealthGraph -INFO - ****Antifungal agents must have this tabs:Fluconazole
-2020-06-21 12:25:50,642 - HealthGraph -INFO - ****Antifungal agents must have this tabs:Itraconazole
-2020-06-21 12:25:50,838 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Acyclovir
-2020-06-21 12:25:50,870 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Efavirenz
-2020-06-21 12:25:50,893 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Enfuvirtide
-2020-06-21 12:25:50,913 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Nelfinavir
-2020-06-21 12:25:50,932 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Nevirapine
-2020-06-21 12:25:50,948 - HealthGraph -INFO - ****Antiviral agents must have below tabs:Zidovudine
-2020-06-21 12:25:51,174 - HealthGraph -INFO - ****Nsaids must have below tabs:Aspirin
-2020-06-21 12:25:51,204 - HealthGraph -INFO - ****Nsaids must have below tabs:Paracetamol
-2020-06-21 12:25:51,222 - HealthGraph -INFO - ****Nsaids must have below tabs:Ibuprofen
-2020-06-21 12:25:51,242 - HealthGraph -INFO - ****Nsaids must have below tabs:Diclofenac
-2020-06-21 12:25:51,249 - HealthGraph -INFO - ****Nsaids must have below tabs:Aceclofenac
-2020-06-21 12:25:51,264 - HealthGraph -INFO - ****Nsaids must have below tabs:Naproxen
-2020-06-21 12:25:51,493 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicamide_P
-2020-06-21 12:25:51,521 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicamide
-2020-06-21 12:25:51,542 - HealthGraph -INFO - ****EyeDrops must have below tabs:Timolol
-2020-06-21 12:25:51,563 - HealthGraph -INFO - ****EyeDrops must have below tabs:Homide
-2020-06-21 12:25:51,582 - HealthGraph -INFO - ****EyeDrops must have below tabs:Latanoprost
-2020-06-21 12:25:51,603 - HealthGraph -INFO - ****EyeDrops must have below tabs:Brimonidine
-2020-06-21 12:25:51,619 - HealthGraph -INFO - ****EyeDrops must have below tabs:Travoprost
-2020-06-21 12:25:51,635 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tobramycin
-2020-06-21 12:25:51,666 - HealthGraph -INFO - ****EyeDrops must have below tabs:Moxifloxacin
-2020-06-21 12:25:51,681 - HealthGraph -INFO - ****EyeDrops must have below tabs:Homatropine
-2020-06-21 12:25:51,713 - HealthGraph -INFO - ****EyeDrops must have below tabs:Pilocarpine
-2020-06-21 12:25:51,728 - HealthGraph -INFO - ****EyeDrops must have below tabs:Cyclopentolate
-2020-06-21 12:25:51,744 - HealthGraph -INFO - ****EyeDrops must have below tabs:Atropine
-2020-06-21 12:25:51,775 - HealthGraph -INFO - ****EyeDrops must have below tabs:Phenylephrine
-2020-06-21 12:25:51,791 - HealthGraph -INFO - ****EyeDrops must have below tabs:Tropicacyl
-2020-06-21 12:25:51,806 - HealthGraph -INFO - ****EyeDrops must have below tabs:Paracain
-2020-06-21 12:25:51,838 - HealthGraph -INFO - ****EyeDrops must have below tabs:Ciplox
-2020-06-21 12:25:51,885 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Alcohol
-2020-06-21 12:25:51,900 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Latex
-2020-06-21 12:25:51,916 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Betadine
-2020-06-21 12:25:51,947 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Adhesive Tape
-2020-06-21 12:25:51,963 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Tegaderm
-2020-06-21 12:25:51,978 - HealthGraph -INFO - ****Contact Allergies must have below tabs:Transpore
-2020-06-21 12:25:52,025 - HealthGraph -INFO - ****Food Allergies must have below tabs:All Seafood
-2020-06-21 12:25:52,041 - HealthGraph -INFO - ****Food Allergies must have below tabs:Corn
-2020-06-21 12:25:52,056 - HealthGraph -INFO - ****Food Allergies must have below tabs:Egg
-2020-06-21 12:25:52,088 - HealthGraph -INFO - ****Food Allergies must have below tabs:Milk Proteins
-2020-06-21 12:25:52,103 - HealthGraph -INFO - ****Food Allergies must have below tabs:Peanuts
-2020-06-21 12:25:52,134 - HealthGraph -INFO - ****Food Allergies must have below tabs:Shellfish Only
-2020-06-21 12:25:52,150 - HealthGraph -INFO - ****Food Allergies must have below tabs:Soy Protein
-2020-06-21 12:25:52,166 - HealthGraph -INFO - ****Food Allergies must have below tabs:Lactose
-2020-06-21 12:25:52,197 - HealthGraph -INFO - ****Food Allergies must have below tabs:Mushroom
-2020-06-21 12:25:53,155 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ampicillin
-2020-06-21 12:25:53,171 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Amoxicillin
-2020-06-21 12:25:53,189 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ceftriaxone
-2020-06-21 12:25:53,205 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ciprofloxacin
-2020-06-21 12:25:53,223 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Clarithromycin
-2020-06-21 12:25:53,242 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Co Trimoxazole
-2020-06-21 12:25:53,263 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Ethambutol
-2020-06-21 12:25:53,277 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Isoniazid
-2020-06-21 12:25:53,292 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Metronidazole
-2020-06-21 12:25:53,312 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Penicillin
-2020-06-21 12:25:53,344 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Rifampicin
-2020-06-21 12:25:53,361 - HealthGraph -INFO - ****Antimicrobial agent must have this tab:Streptomycin
-2020-06-21 12:26:10,885 - HealthGraph -INFO - ****Antifungal agent must have this tab:Ketoconazole
-2020-06-21 12:26:10,913 - HealthGraph -INFO - ****Antifungal agent must have this tab:Fluconazole
-2020-06-21 12:26:10,931 - HealthGraph -INFO - ****Antifungal agent must have this tab:Itraconazole
-2020-06-21 12:26:16,799 - HealthGraph -INFO - ****Antiviral agent must have this tab:Acyclovir
-2020-06-21 12:26:16,814 - HealthGraph -INFO - ****Antiviral agent must have this tab:Efavirenz
-2020-06-21 12:26:16,827 - HealthGraph -INFO - ****Antiviral agent must have this tab:Enfuvirtide
-2020-06-21 12:26:16,841 - HealthGraph -INFO - ****Antiviral agent must have this tab:Nelfinavir
-2020-06-21 12:26:16,855 - HealthGraph -INFO - ****Antiviral agent must have this tab:Nevirapine
-2020-06-21 12:26:16,869 - HealthGraph -INFO - ****Antiviral agent must have this tab:Zidovudine
-2020-06-21 12:26:29,704 - HealthGraph -INFO - ****NSAIDS must have this tab:Aspirin
-2020-06-21 12:26:29,721 - HealthGraph -INFO - ****NSAIDS must have this tab:Paracetamol
-2020-06-21 12:26:29,737 - HealthGraph -INFO - ****NSAIDS must have this tab:Ibuprofen
-2020-06-21 12:26:29,753 - HealthGraph -INFO - ****NSAIDS must have this tab:Diclofenac
-2020-06-21 12:26:29,770 - HealthGraph -INFO - ****NSAIDS must have this tab:Aceclofenac
-2020-06-21 12:26:29,787 - HealthGraph -INFO - ****NSAIDS must have this tab:Naproxen
-2020-06-21 12:26:46,409 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicamide P
-2020-06-21 12:26:46,424 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicamide
-2020-06-21 12:26:46,437 - HealthGraph -INFO - ****Eye Drops must have this tab:Timolol
-2020-06-21 12:26:46,453 - HealthGraph -INFO - ****Eye Drops must have this tab:Homide
-2020-06-21 12:26:46,467 - HealthGraph -INFO - ****Eye Drops must have this tab:Latanoprost
-2020-06-21 12:26:46,479 - HealthGraph -INFO - ****Eye Drops must have this tab:Brimonidine
-2020-06-21 12:26:46,494 - HealthGraph -INFO - ****Eye Drops must have this tab:Travoprost
-2020-06-21 12:26:46,509 - HealthGraph -INFO - ****Eye Drops must have this tab:Tobramycin
-2020-06-21 12:26:46,526 - HealthGraph -INFO - ****Eye Drops must have this tab:Moxifloxacin
-2020-06-21 12:26:46,540 - HealthGraph -INFO - ****Eye Drops must have this tab:Homatropine
-2020-06-21 12:26:46,559 - HealthGraph -INFO - ****Eye Drops must have this tab:Pilocarpine
-2020-06-21 12:26:46,573 - HealthGraph -INFO - ****Eye Drops must have this tab:Cyclopentolate
-2020-06-21 12:26:46,585 - HealthGraph -INFO - ****Eye Drops must have this tab:Atropine
-2020-06-21 12:26:46,599 - HealthGraph -INFO - ****Eye Drops must have this tab:Phenylephrine
-2020-06-21 12:26:46,605 - HealthGraph -INFO - ****Eye Drops must have this tab:Tropicacyl
-2020-06-21 12:26:46,620 - HealthGraph -INFO - ****Eye Drops must have this tab:Paracain
-2020-06-21 12:26:46,652 - HealthGraph -INFO - ****Eye Drops must have this tab:Ciplox
-2020-06-21 12:27:54,124 - HealthGraph -INFO - ****Eye Drops must have this tab:Alcohol
-2020-06-21 12:27:54,140 - HealthGraph -INFO - ****Eye Drops must have this tab:Latex
-2020-06-21 12:27:54,156 - HealthGraph -INFO - ****Eye Drops must have this tab:Betadine
-2020-06-21 12:27:54,169 - HealthGraph -INFO - ****Eye Drops must have this tab:Adhesive Tape
-2020-06-21 12:27:54,184 - HealthGraph -INFO - ****Eye Drops must have this tab:Tegaderm
-2020-06-21 12:27:54,201 - HealthGraph -INFO - ****Eye Drops must have this tab:Transpore
-2020-06-21 12:27:54,476 - HealthGraph -INFO - ****User successfully click on Create Appointment button******
+2020-06-26 15:34:10,822 - HealthGraph -INFO - Launching browser
+2020-06-26 15:34:11,071 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 15:34:12,706 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 15:34:16,755 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 15:34:19,281 - HealthGraph -INFO - On the click of defult setting select default view page is displaying-->PASS
+2020-06-26 15:34:27,404 - HealthGraph -INFO - Adminstration Department validation successfully-->PASS
+2020-06-26 15:34:37,667 - HealthGraph -INFO - OT validation successfully-->PASS
+2020-06-26 15:34:48,131 - HealthGraph -INFO - OPD validation successfully-->PASS
+2020-06-26 15:34:59,232 - HealthGraph -INFO - IPD validation successfully-->PASS
+2020-06-26 15:35:18,992 - HealthGraph -INFO - Launching browser
+2020-06-26 15:35:19,243 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 15:35:21,249 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 15:35:25,286 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 15:35:27,607 - HealthGraph -INFO - Advice Sets
+2020-06-26 15:35:27,632 - HealthGraph -INFO - User Notes
+2020-06-26 15:35:27,653 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 15:35:27,673 - HealthGraph -INFO - Medication Lists
+2020-06-26 15:35:27,688 - HealthGraph -INFO - Medication Sets
+2020-06-26 15:35:27,701 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 15:35:27,714 - HealthGraph -INFO - Radiology Sets
+2020-06-26 15:35:27,729 - HealthGraph -INFO - Laboratory Sets
+2020-06-26 15:35:30,850 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 15:35:31,257 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 15:35:32,674 - HealthGraph -INFO - click on Add button
+2020-06-26 15:35:34,077 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 15:35:36,126 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 15:35:36,822 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 15:35:39,212 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 15:35:39,229 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 15:35:39,246 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 15:35:39,264 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 15:35:39,288 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 15:35:39,304 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 15:35:39,322 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 15:35:39,338 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 15:35:39,354 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 15:35:39,373 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 15:35:39,388 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 15:35:39,402 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 15:35:39,416 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 15:35:39,430 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 15:54:17,479 - HealthGraph -INFO - Launching browser
+2020-06-26 15:54:17,734 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 15:54:19,420 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 15:54:23,461 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 15:54:25,556 - HealthGraph -INFO - Advice Sets
+2020-06-26 15:54:25,578 - HealthGraph -INFO - User Notes
+2020-06-26 15:54:25,592 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 15:54:25,608 - HealthGraph -INFO - Medication Lists
+2020-06-26 15:54:25,622 - HealthGraph -INFO - Medication Sets
+2020-06-26 15:54:25,637 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 15:54:25,652 - HealthGraph -INFO - Radiology Sets
+2020-06-26 15:54:25,672 - HealthGraph -INFO - 
+2020-06-26 15:54:28,520 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 15:54:28,946 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 15:54:30,330 - HealthGraph -INFO - click on Add button
+2020-06-26 15:54:31,532 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 15:54:33,549 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 15:54:34,239 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 15:54:36,052 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 15:54:36,070 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 15:54:36,087 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 15:54:36,104 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 15:54:36,122 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 15:54:36,138 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 15:54:36,155 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 15:54:36,182 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 15:54:36,205 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 15:54:36,220 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 15:54:36,235 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 15:54:36,249 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 15:54:36,263 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 15:54:36,278 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 16:11:10,802 - HealthGraph -INFO - Launching browser
+2020-06-26 16:11:11,070 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 16:11:12,701 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 16:11:16,724 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 16:11:18,837 - HealthGraph -INFO - Advice Sets
+2020-06-26 16:11:18,855 - HealthGraph -INFO - User Notes
+2020-06-26 16:11:18,872 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 16:11:18,887 - HealthGraph -INFO - Medication Lists
+2020-06-26 16:11:18,903 - HealthGraph -INFO - Medication Sets
+2020-06-26 16:11:18,921 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 16:11:18,937 - HealthGraph -INFO - Radiology Sets
+2020-06-26 16:11:18,957 - HealthGraph -INFO - 
+2020-06-26 16:11:21,914 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 16:11:22,359 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 16:11:23,653 - HealthGraph -INFO - click on Add button
+2020-06-26 16:11:24,917 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 16:11:26,988 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 16:11:27,672 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 16:11:29,542 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 16:11:29,559 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 16:11:29,582 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 16:11:29,601 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 16:11:29,617 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 16:11:29,634 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 16:11:29,651 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 16:11:29,669 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 16:11:29,686 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 16:11:29,703 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 16:11:29,717 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 16:11:29,732 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 16:11:29,746 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 16:11:29,760 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 16:11:29,841 - HealthGraph -INFO - User Selected Eye Template
+2020-06-26 16:11:33,614 - HealthGraph -INFO - User clicked on Advice Step
+2020-06-26 16:11:33,855 - HealthGraph -INFO - User clicked on Advice tab under Advice Step
+2020-06-26 16:11:34,030 - HealthGraph -INFO - User clicked on Advice & Precaution button
+2020-06-26 16:23:40,586 - HealthGraph -INFO - Launching browser
+2020-06-26 16:23:40,825 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 16:23:42,519 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 16:23:46,528 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 16:23:48,572 - HealthGraph -INFO - Advice Sets
+2020-06-26 16:23:48,590 - HealthGraph -INFO - User Notes
+2020-06-26 16:23:48,605 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 16:23:48,621 - HealthGraph -INFO - Medication Lists
+2020-06-26 16:23:48,638 - HealthGraph -INFO - Medication Sets
+2020-06-26 16:23:48,653 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 16:23:48,672 - HealthGraph -INFO - Radiology Sets
+2020-06-26 16:23:48,699 - HealthGraph -INFO - 
+2020-06-26 16:23:52,004 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 16:23:52,415 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 16:23:53,632 - HealthGraph -INFO - click on Add button
+2020-06-26 16:23:55,343 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 16:23:57,434 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 16:23:58,154 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 16:24:00,026 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 16:24:00,044 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 16:24:00,061 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 16:24:00,086 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 16:24:00,105 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 16:24:00,121 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 16:24:00,137 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 16:24:00,154 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 16:24:00,171 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 16:24:00,186 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 16:24:00,201 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 16:24:00,217 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 16:24:00,232 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 16:24:00,245 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 16:24:00,319 - HealthGraph -INFO - User Selected Eye Template
+2020-06-26 16:24:03,530 - HealthGraph -INFO - User clicked on Advice Step
+2020-06-26 16:24:03,758 - HealthGraph -INFO - User clicked on Advice tab under Advice Step
+2020-06-26 16:24:03,936 - HealthGraph -INFO - User clicked on Advice & Precaution button
+2020-06-26 16:25:34,937 - HealthGraph -INFO - Launching browser
+2020-06-26 16:25:35,167 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 16:25:36,992 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 16:25:41,023 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 16:25:43,124 - HealthGraph -INFO - Advice Sets
+2020-06-26 16:25:43,143 - HealthGraph -INFO - User Notes
+2020-06-26 16:25:43,157 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 16:25:43,172 - HealthGraph -INFO - Medication Lists
+2020-06-26 16:25:43,189 - HealthGraph -INFO - Medication Sets
+2020-06-26 16:25:43,203 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 16:25:43,218 - HealthGraph -INFO - Radiology Sets
+2020-06-26 16:25:43,238 - HealthGraph -INFO - 
+2020-06-26 16:25:46,333 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 16:25:46,769 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 16:25:48,057 - HealthGraph -INFO - click on Add button
+2020-06-26 16:25:49,214 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 16:25:51,413 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 16:25:52,122 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 16:25:53,979 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 16:25:54,000 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 16:25:54,017 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 16:25:54,034 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 16:25:54,050 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 16:25:54,068 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 16:25:54,087 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 16:25:54,103 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 16:25:54,120 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 16:25:54,135 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 16:25:54,150 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 16:25:54,165 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 16:25:54,179 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 16:25:54,196 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 16:25:54,278 - HealthGraph -INFO - User Selected Eye Template
+2020-06-26 16:25:57,588 - HealthGraph -INFO - User clicked on Advice Step
+2020-06-26 16:25:57,876 - HealthGraph -INFO - User clicked on Advice tab under Advice Step
+2020-06-26 16:25:58,040 - HealthGraph -INFO - User clicked on Advice & Precaution button
+2020-06-26 16:37:06,773 - HealthGraph -INFO - Launching browser
+2020-06-26 16:37:07,044 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 16:37:08,666 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 16:37:12,676 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 16:37:14,746 - HealthGraph -INFO - Advice Sets
+2020-06-26 16:37:14,762 - HealthGraph -INFO - User Notes
+2020-06-26 16:37:14,778 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 16:37:14,793 - HealthGraph -INFO - Medication Lists
+2020-06-26 16:37:14,809 - HealthGraph -INFO - Medication Sets
+2020-06-26 16:37:14,823 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 16:37:14,837 - HealthGraph -INFO - Radiology Sets
+2020-06-26 16:37:14,854 - HealthGraph -INFO - 
+2020-06-26 16:37:17,853 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 16:37:18,261 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 16:37:19,634 - HealthGraph -INFO - click on Add button
+2020-06-26 16:37:20,822 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 16:37:22,882 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 16:37:23,703 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 16:37:25,572 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 16:37:25,593 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 16:37:25,610 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 16:37:25,626 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 16:37:25,646 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 16:37:25,663 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 16:37:25,681 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 16:37:25,698 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 16:37:25,716 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 16:37:25,736 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 16:37:25,757 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 16:37:25,771 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 16:37:25,785 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 16:37:25,799 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 16:37:25,883 - HealthGraph -INFO - User Selected Eye Template
+2020-06-26 16:37:29,378 - HealthGraph -INFO - User clicked on Advice Step
+2020-06-26 16:37:29,669 - HealthGraph -INFO - User clicked on Advice tab under Advice Step
+2020-06-26 16:37:29,839 - HealthGraph -INFO - User clicked on Advice & Precaution button
+2020-06-26 16:37:30,557 - HealthGraph -INFO - Advice set Searched data is displaying in auto suggestion text box
+2020-06-26 16:39:22,178 - HealthGraph -INFO - Launching browser
+2020-06-26 16:39:22,477 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 16:39:24,211 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 16:39:28,252 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 16:39:30,336 - HealthGraph -INFO - Advice Sets
+2020-06-26 16:39:30,354 - HealthGraph -INFO - User Notes
+2020-06-26 16:39:30,371 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 16:39:30,387 - HealthGraph -INFO - Medication Lists
+2020-06-26 16:39:30,402 - HealthGraph -INFO - Medication Sets
+2020-06-26 16:39:30,416 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 16:39:30,430 - HealthGraph -INFO - 
+2020-06-26 16:39:30,444 - HealthGraph -INFO - 
+2020-06-26 16:39:33,469 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 16:39:33,807 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 16:39:35,128 - HealthGraph -INFO - click on Add button
+2020-06-26 16:39:36,304 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 16:39:38,444 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 16:39:39,142 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 16:39:40,959 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 16:39:40,975 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 16:39:40,992 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 16:39:41,008 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 16:39:41,025 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 16:39:41,041 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 16:39:41,058 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 16:39:41,078 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 16:39:41,096 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 16:39:41,112 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 16:39:41,126 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 16:39:41,145 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 16:39:41,160 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 16:39:41,174 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 16:39:41,258 - HealthGraph -INFO - User Selected Eye Template
+2020-06-26 16:39:44,553 - HealthGraph -INFO - User clicked on Advice Step
+2020-06-26 16:39:44,774 - HealthGraph -INFO - User clicked on Advice tab under Advice Step
+2020-06-26 16:39:44,937 - HealthGraph -INFO - User clicked on Advice & Precaution button
+2020-06-26 16:39:45,622 - HealthGraph -INFO - Advice set Searched data is displaying in auto suggestion text box
+2020-06-26 16:56:45,335 - HealthGraph -INFO - Launching browser
+2020-06-26 16:56:45,610 - HealthGraph -INFO - Successfully Entered Username and Password
+2020-06-26 16:56:47,337 - HealthGraph -INFO - After entering credentials user clicks on Login button
+2020-06-26 16:56:51,376 - HealthGraph -INFO - User successfully logged in and landed on OPD Home Page
+2020-06-26 16:56:53,500 - HealthGraph -INFO - Advice Sets
+2020-06-26 16:56:53,518 - HealthGraph -INFO - User Notes
+2020-06-26 16:56:53,534 - HealthGraph -INFO - In-Patients Procedure Notes
+2020-06-26 16:56:53,549 - HealthGraph -INFO - Medication Lists
+2020-06-26 16:56:53,566 - HealthGraph -INFO - Medication Sets
+2020-06-26 16:56:53,581 - HealthGraph -INFO - Ophthal Sets
+2020-06-26 16:56:53,597 - HealthGraph -INFO - Radiology Sets
+2020-06-26 16:56:53,616 - HealthGraph -INFO - 
+2020-06-26 16:56:56,687 - HealthGraph -INFO - Successfully a new Advice Set Created
+2020-06-26 16:56:57,091 - HealthGraph -INFO - Newly created Advice Set is showing in Search results-->PASS
+2020-06-26 16:56:58,311 - HealthGraph -INFO - click on Add button
+2020-06-26 16:56:59,435 - HealthGraph -INFO - User entered mandatory fields such as First name and Mob no
+2020-06-26 16:57:01,416 - HealthGraph -INFO - User marked as Patient Arrived
+2020-06-26 16:57:02,104 - HealthGraph -INFO - User Skipped without Token
+2020-06-26 16:57:03,868 - HealthGraph -INFO - List of Template Details under 'New' button :Eye
+2020-06-26 16:57:03,885 - HealthGraph -INFO - List of Template Details under 'New' button :Optometrist
+2020-06-26 16:57:03,902 - HealthGraph -INFO - List of Template Details under 'New' button :Lens
+2020-06-26 16:57:03,919 - HealthGraph -INFO - List of Template Details under 'New' button :PMT
+2020-06-26 16:57:03,936 - HealthGraph -INFO - List of Template Details under 'New' button :Post OP
+2020-06-26 16:57:03,953 - HealthGraph -INFO - List of Template Details under 'New' button :Quick Eye
+2020-06-26 16:57:03,974 - HealthGraph -INFO - List of Template Details under 'New' button :Paediatrics
+2020-06-26 16:57:03,996 - HealthGraph -INFO - List of Template Details under 'New' button :Orthoptics
+2020-06-26 16:57:04,013 - HealthGraph -INFO - List of Template Details under 'New' button :Express
+2020-06-26 16:57:04,029 - HealthGraph -INFO - List of Template Details under 'New' button :Trauma
+2020-06-26 16:57:04,045 - HealthGraph -INFO - List of Template Details under 'New' button :Free Form
+2020-06-26 16:57:04,060 - HealthGraph -INFO - List of Template Details under 'New' button :Nursing
+2020-06-26 16:57:04,078 - HealthGraph -INFO - List of Template Details under 'New' button :Vital Sign
+2020-06-26 16:57:04,099 - HealthGraph -INFO - List of Template Details under 'New' button :Blank Form
+2020-06-26 16:57:04,183 - HealthGraph -INFO - User Selected Eye Template
+2020-06-26 16:57:07,363 - HealthGraph -INFO - User clicked on Advice Step
+2020-06-26 16:57:07,545 - HealthGraph -INFO - User clicked on Advice tab under Advice Step
+2020-06-26 16:57:07,702 - HealthGraph -INFO - User clicked on Advice & Precaution button
+2020-06-26 16:57:08,415 - HealthGraph -INFO - Advice set Searched data is displaying in auto suggestion text box
+2020-06-26 16:57:09,582 - HealthGraph -INFO - The data displaying in advice set comments is not same as user given text

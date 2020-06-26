@@ -1,4 +1,5 @@
-package PatientRegistration;
+package StepDefinations;
+import java.util.Iterator;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -6,6 +7,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import com.cucumber.listener.Reporter;
@@ -15,7 +17,7 @@ import cucumber.api.java.en.*;
 import pageObjects.AddPatientDetails;
 import pageObjects.LoginPage;
 
-public class Steps extends Common_Methods
+public class PatientDetails extends Common_Methods
 
 {
 	// Verify login with invalid credentials//
@@ -27,7 +29,7 @@ public class Steps extends Common_Methods
 		PropertyConfigurator.configure("Log4j.properties");
 		browser_and_url_open();
 		lp=new LoginPage(driver);
-		logger.info("****Launching browser******");
+		logger.info("Launching browser");
 	}
 
 
@@ -54,29 +56,20 @@ public class Steps extends Common_Methods
 		}
 	}
 
-	/*@Then("^user log out from application$")
-	public void user_log_out_from_application() throws Throwable 
-	{
-		normalWait(1000);
-		driver.findElement(By.xpath("//*[@href='/users/logout'] ")).click();
-	}*/	
-
 	// Verifying login with valid credentials//
 
 	@When("^user fills \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void user_fills_and(String uname, String pswd) throws Exception  {
-		/*		 driver.navigate().refresh();
-		 normalWait(2000);*/
 		lp.fillusername(uname);
 		lp.fillpassword(pswd);
-		logger.info("****Successfully Entered Username and Password******");
+		logger.info("Successfully Entered Username and Password");
 	}
 
 	@When("^clicks on Login$")
 	public void clicks_on_Login() throws Throwable 
 	{
 		lp.clickloginbtn();
-		logger.info("****After entering credentials user clicks on Login button******");
+		logger.info("After entering credentials user clicks on Login button");
 		normalWait(4000);
 	}
 
@@ -84,7 +77,7 @@ public class Steps extends Common_Methods
 	public void user_can_view_dashboard() throws Throwable 
 	{
 		Assert.assertEquals("Foss - EHR", lp.getPageTitle());
-		logger.info("****User successfully logged in and landed on OPD Home Page******");
+		logger.info("User successfully logged in and landed on OPD Home Page");
 	}
 
 
@@ -94,13 +87,13 @@ public class Steps extends Common_Methods
 
 		addpd =new AddPatientDetails(driver);
 		addpd.clickAdd_btn();
-		logger.info("****click on Add button******");
+		logger.info("click on Add button");
 	}
 
 	@Then("^click on Add New Patient button$")
 	public void click_on_Add_New_Patient_button() throws Throwable {
 		addpd.click_Add_New_Patient_btn();
-		logger.info("****click on Add New Patient button******");
+		logger.info("click on Add New Patient button");
 	}
 
 	@Then("^User should see a modal having the header \"([^\"]*)\"$")
@@ -237,9 +230,9 @@ public class Steps extends Common_Methods
 		addpd.selectBloodGroup();
 		logger.info("****User selected blood group********");
 		/*	    addpd.selectnegativeGroup();
-		addpd.selectpositiveGroup();
-		String radiocolour2=driver.findElement(By.xpath("//*[text()='O+']")).getCssValue("color");
-		System.out.println(radiocolour2);	*/	
+			addpd.selectpositiveGroup();
+			String radiocolour2=driver.findElement(By.xpath("//*[text()='O+']")).getCssValue("color");
+			System.out.println(radiocolour2);	*/	
 	}
 
 	@When("^Maritial status should be single select radio button$")
@@ -300,7 +293,7 @@ public class Steps extends Common_Methods
 			logger.info("****Systemic History must have below tabs:" + element.getText());	
 		}
 	}
-	
+
 	@Then("^each Opthalmic History name should be clickable$")
 	public void each_Opthalmic_History_name_should_be_clickable() throws Throwable 
 	{
@@ -463,7 +456,7 @@ public class Steps extends Common_Methods
 				durationUnits.get(j).click();
 			}
 		}
-		
+
 	}
 
 	@Then("^fill comments for each Systemic History Comment$")
@@ -681,10 +674,10 @@ public class Steps extends Common_Methods
 	@Then("^select Duration for each Antimicrobial agents$")
 	public void select_duration_for_Antimicrobial_agents() throws Throwable {
 
-		List<WebElement> duration=driver.findElements(By.xpath("(//*[@class='form-control allergy_field_add_field allergy_duration'])"));
-		for (int j=0; j<duration.size(); j++) {
+		List<WebElement> durationUnits=driver.findElements(By.xpath("(//*[@class='form-control allergy_field_add_field allergy_duration'])"));
+		for (int j=0; j<durationUnits.size(); j++) {
 			try {
-				duration.get(j).click();
+				durationUnits.get(j).click();
 
 				List<WebElement> dropdownvalue=driver.findElements(By.xpath("//*[text()='4']"));
 				for (int k=0; k<dropdownvalue.size(); k++) {
@@ -700,10 +693,11 @@ public class Steps extends Common_Methods
 
 			} catch (StaleElementReferenceException e) {
 				// If the exception occurs, find the elements again and click on it
-				duration = duration= driver.findElements(By.xpath("(//*[@class='form-control allergy_field_add_field allergy_duration'])"));
-				duration.get(j).click();
+				durationUnits = durationUnits= driver.findElements(By.xpath("(//*[@class='form-control allergy_field_add_field allergy_duration'])"));
+				durationUnits.get(j).click();
 			}
 		}
+
 
 	}
 
@@ -1291,7 +1285,7 @@ public class Steps extends Common_Methods
 	public void each_Food_Allergies_name_should_be_display() throws Throwable 
 	{
 		List<WebElement> menuLinks = driver.findElements(By.xpath("//*[@class='col-md-12 col-sm-12 col-xs-12 complaint_name allergies_fields_row_count all_seafood_fields food_allergies_hide']/..//h5"));
-		
+
 		// Print the number of links present..
 		System.out.println(menuLinks.size());
 		for (WebElement option : menuLinks) {
@@ -1395,21 +1389,21 @@ public class Steps extends Common_Methods
 		logger.info("***********Appointment Date----->" + date);
 		String time =driver.findElement(By.id("appointment_time")).getAttribute("value");
 		logger.info("***********Appointment Date----->" + time);
-		
+
 	}
 
 	@Then("^validate location drop down$")
 	public void validate_location_drop_down() throws Throwable 
 	{
 		//driver.findElement(By.xpath("//*[@id='select2-appointment_facility_id-container']")).click();
-		
-			//logger.info("*********Salution Values are-->");
+
+		//logger.info("*********Salution Values are-->");
 	}
 
 	@Then("^validate Doctor drop down$")
 	public void validate_Doctor_drop_down() throws Throwable 
 	{
-		
+
 	}
 
 	@Then("^select Appointment Types$")
@@ -1424,10 +1418,10 @@ public class Steps extends Common_Methods
 
 	}
 
-	
-	/////--------------------       Patient Setting for Mandatory Fields   ---------------------------////////
-	
-	
+
+	/////------------------------------------Patient Setting for Mandatory Fields   ----------------------------------------------//
+
+
 	@When("^user clicks on profile setting button$")
 	public void user_clicks_on_profile_setting_button() throws Throwable {
 
@@ -1510,7 +1504,188 @@ public class Steps extends Common_Methods
 			logger.info("***********User click on Patient Setting button***********");
 			normalWait(1500);
 		}
+
+	}
+
+	//--------------------------------------------------PRACTISE SETTING--------------------------------------------------------------//
+
+/*
+	@When("^user clicks on practise setting button$")
+	public void user_clicks_on_practise_setting_button() throws Throwable 
+	{
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']")).click();
+		normalWait(1000);
+		driver.findElement(By.xpath("//*[@href='/doctors/practice_settings']")).click();
+		expwait("//*[contains(text(),'Select Default View')]");
+	}
+
+	@Then("^clicks on Default view and validate the functionality$")
+	public void clicks_on_Default_view_and_validate_the_functionality() throws Throwable 
+	{
+		//Validate the Default setting list page should display
+		String note=driver.findElement(By.xpath("//*[contains(text(),'Select Default View')]")).getText();
+		if(note.contains("Select Default View"))
+		{
+			logger.info("On the click of defult setting select default view page is displaying-->PASS");
+		}
+		else
+		{
+			logger.info("On the click of defult setting select default view page is not displaying-->DEFECT");
+		}
+
+		//Validate Adminstration Department view
+		normalWait(3000);
+		//driver.findElement(By.xpath("(//*[@name='user_selected_url'])[1]")).click();
+		clickElementByXpath("(//*[@name='user_selected_url'])[1]");
+		 expwait("(//*[@name='user_selected_url'])[1]");
+     waitForElementToBeInvisible(driver.findElement(By.xpath("//*[text()='Default View Successfully Changed']")));
+		normalWait(2000);
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']/..//i")).click();
+		expwait("//*[@href='/users/logout']");
+		driver.findElement(By.xpath("//*[@href='/users/logout']")).click();
+		expwait("//*[@placeholder='Username']");
+		driver.findElement(By.xpath("//*[@placeholder='Username']")).sendKeys("hgdummydoc");
+		driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("HGraph@2$2$");
+		driver.findElement(By.xpath("//*[@value='LOGIN']")).click();
+		expwait("(//h4[text()='Others'])[1]");
+		//validate dash board page
+		if(driver.findElement(By.xpath("(//h4[text()='Others'])[1]")).isDisplayed())
+		{
+			logger.info("Adminstration Department validation successfully-->PASS"); 
+		}
+		else
+		{
+			logger.info("Adminstration Department is not validate successfully-->DEFECT"); 
+		}
+
+		//OT Department
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']")).click();
+		normalWait(1000);
+		driver.findElement(By.xpath("//*[@href='/doctors/practice_settings']")).click();
+		expwait("//*[contains(text(),'Select Default View')]");
+		normalWait(3000);
+		clickElementByXpath("(//*[@name='user_selected_url'])[2]");
+        normalWait(2000);
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']/..//i")).click();
+		expwait("//*[@href='/users/logout']");
+		driver.findElement(By.xpath("//*[@href='/users/logout']")).click();
+		expwait("//*[@placeholder='Username']");
+		driver.findElement(By.xpath("//*[@placeholder='Username']")).sendKeys("hgdummydoc");
+		driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("HGraph@2$2$");
+		driver.findElement(By.xpath("//*[@value='LOGIN']")).click();
+		//expwait("(//h4[text()='Others'])[1]");
+		String highlightcolor=driver.findElement(By.xpath("//*[@class='common-li-class web_responsive activate']")).getCssValue("border-bottom");
+		System.out.println(highlightcolor);
+		//validate dash board page
+		if(highlightcolor.equals("3px solid rgb(60, 193, 255)"))
+		{
+			logger.info("OT validation successfully-->PASS"); 
+		}
+		else
+		{
+			logger.info("OTt is not validate successfully-->DEFECT"); 
+		}
+
+		//Outpatient Department
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']")).click();
+		normalWait(1000);
+		driver.findElement(By.xpath("//*[@href='/doctors/practice_settings']")).click();
+		expwait("//*[contains(text(),'Select Default View')]");
+		normalWait(3000);
+		clickElementByXpath("(//*[@name='user_selected_url'])[3]");
+        normalWait(2000);
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']/..//i")).click();
+		expwait("//*[@href='/users/logout']");
+		driver.findElement(By.xpath("//*[@href='/users/logout']")).click();
+		expwait("//*[@placeholder='Username']");
+		driver.findElement(By.xpath("//*[@placeholder='Username']")).sendKeys("hgdummydoc");
+		driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("HGraph@2$2$");
+		driver.findElement(By.xpath("//*[@value='LOGIN']")).click();
+		//expwait("(//h4[text()='Others'])[1]");
+		String highlightcolor1=driver.findElement(By.xpath("//*[@class='common-li-class web_responsive activate']")).getCssValue("border-bottom");
+		System.out.println(highlightcolor1);
+		//validate dash board page
+		if(highlightcolor1.equals("3px solid rgb(60, 193, 255)"))
+		{
+			logger.info("OPD validation successfully-->PASS"); 
+		}
+		else
+		{
+			logger.info("OPD is not validate successfully-->DEFECT"); 
+		}
+		//Inpatient Department
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']")).click();
+		normalWait(1000);
+		driver.findElement(By.xpath("//*[@href='/doctors/practice_settings']")).click();
+		expwait("//*[contains(text(),'Select Default View')]");
+		normalWait(3000);
+		clickElementByXpath("(//*[@name='user_selected_url'])[4]");
+        normalWait(2000);
+		driver.findElement(By.xpath("//*[@class='fa-color user_logo']/..//i")).click();
+		expwait("//*[@href='/users/logout']");
+		driver.findElement(By.xpath("//*[@href='/users/logout']")).click();
+		expwait("//*[@placeholder='Username']");
+		driver.findElement(By.xpath("//*[@placeholder='Username']")).sendKeys("hgdummydoc");
+		driver.findElement(By.xpath("//*[@placeholder='Password']")).sendKeys("HGraph@2$2$");
+		driver.findElement(By.xpath("//*[@value='LOGIN']")).click();
+		//expwait("(//h4[text()='Others'])[1]");
+		String highlightcolor2=driver.findElement(By.xpath("//*[@class='common-li-class web_responsive activate']")).getCssValue("border-bottom");
+		System.out.println(highlightcolor2);
+		//validate dash board page
+		if(highlightcolor2.equals("3px solid rgb(60, 193, 255)"))
+		{
+			logger.info("IPD validation successfully-->PASS"); 
+		}
+		else
+		{
+			logger.info("IPD is not validate successfully-->DEFECT"); 
+		}
+
+	}
+
+	@When("^clicks on Clinical from the left panel menu \"([^\"]*)\"$")
+	public void clicks_on_Clinical_from_the_left_panel_menu(String name) throws Throwable
+	{ 
+		driver.findElement(By.xpath("//a[@id='submenu-clinical']/..//span")).click();
+		expwait("//ul[@id='setsAndListSettingSubmenu']");
+		List<WebElement> clinical=driver.findElements(By.xpath("//ul[@id='setsAndListSettingSubmenu']/..//li"));
+		for(int i=0;i<clinical.size();i++)
+		{
+			logger.info(clinical.get(i).getText());
+		}
+		
+		//Validate Advice Set
+		driver.findElement(By.xpath("//*[text()='Advice Sets']")).click();
+		expwait("//*[text()='Advice Sets Name']");
+		
+		//validate Advice set
+		driver.findElement(By.xpath("//*[@href=\"/advice_sets/new?level=user\"]")).click();
+		expwait("//*[text()='Advice Set']");
+		driver.findElement(By.xpath("//*[@name='advice_set[name]']")).sendKeys("Test Automation");
+		driver.findElement(By.xpath("//*[@name='advice_set[specialty_id]']")).click();
+		driver.findElement(By.xpath("//*[@name='advice_set[specialty_id]']/..//option[text()='Ophthalmology']")).click();
+		driver.findElement(By.xpath("//*[@name='advice_set[lcid_code][]']/..//option[text()='English']")).click();
+		driver.findElement(By.xpath("(//*[@class='note-editable panel-body'])[2]")).sendKeys(name);
+		driver.findElement(By.xpath("(//*[@name='commit'])[2]")).click();
+		driver.findElement(By.xpath("(//*[@id='advice-set-list_filter']/..//input)[2]")).sendKeys(name);
+		if(driver.findElement(By.xpath("//*[text()='"+name+"']")).isDisplayed())
+		{
+			logger.info("Craeted data is displaying in the advice sets name table-->PASS");
+		}
+		else
+		{
+			logger.info("Craeted data is not displaying in the advice sets name table-->DEFECT");
+		}
+		
+		//
+	   
 		
 	}
+
+	@Then("^click on Advice Sets and validate functionality$")
+	public void click_on_Advice_Sets_and_validate_functionality() throws Throwable 
+	{
+
+	}*/
 }
 
