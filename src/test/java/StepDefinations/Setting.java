@@ -799,5 +799,487 @@ public class Setting extends Common_Methods{
 			}
 	}
 
+               ///////////////////                       Opthal Sets                          ////////////     
+	
+	
+	@Then("^click on Opthal Sets and validate each tab$")
+	public void click_on_Opthal_Sets_and_validate_each_tab() throws Throwable
+	{
+         driver.findElement(By.xpath("//*[@id='ophthal_sets_id']")).click();
+	}
 
+	@When("^create Opthal Lab Set \"([^\"]*)\"$")
+	public void create_Opthal_Lab_Set(String arg1) throws Throwable 
+	{
+	   //driver.findElement(By.xpath("//*[@id='ophthal-lab-set']")).click();
+	}
+
+	@Then("^verify created Opthal Set name should display in Procedure Notes \"([^\"]*)\"$")
+	public void verify_created_Opthal_Set_name_should_display_in_Procedure_Notes(String arg1) throws Throwable 
+	{
+	    
+	}
+
+	@When("^user deleted that Opthal Set name its should not display under template \"([^\"]*)\"$")
+	public void user_deleted_that_Opthal_Set_name_its_should_not_display_under_template(String arg1) throws Throwable {
+	   
+	}
+
+	@Then("^create again new Opthal Set \"([^\"]*)\"$")
+	public void create_again_new_Opthal_Set(String SetName) throws Throwable 
+	{
+		expwait("//*[@id='ophthal-lab-set']");
+		clickElementByXpath("//*[@id='ophthal-lab-set']");
+		expwait("//*[text()='New Ophthal Laboratory Set']");
+		driver.findElement(By.xpath("//input[@id='ophthal_laboratory_set_name']")).sendKeys(SetName);
+		List<WebElement> Eye_Region = driver.findElements(By.xpath("//select[@name='eyearea[]']/..//option"));
+		for(int i=0;i<Eye_Region.size()-1;i++) {
+			String Eye_Region_List = Eye_Region.get(i).getText();
+			logger.info("List of values under Eye Regions are:" + Eye_Region_List);
+			Eye_Region.get(i).click();
+			normalWait(2000);
+			if(driver.findElement(By.xpath("//*[@id='investigation-eyearea-option']")).isDisplayed()) 
+			{
+				List<WebElement> Investigations = driver.findElements(By.xpath("//select[@id='investigation-eyearea-option']/..//option"));	
+				for(int j=0;j<Investigations.size();j++) {
+					String Investigation_List = Investigations.get(j).getText();
+					logger.info("List of values under Investigations are:" + Investigation_List);
+					Investigations.get(j).click();
+					expwait("//button[@class='btn btn-danger btn-xs delete-row']");
+				}
+			}
+		}
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User successfully closed after creating one Opthal Set having name :" + SetName);
+	}
+
+	@When("^mark patient as Arrived go to Investigation tab under Eye Template$")
+	public void mark_patient_as_Arrived_go_to_Investigation_tab_under_Eye_Template() throws Throwable 
+	{
+		expwait("//*[text()='Mark Patient Arrived']");
+		clickElementByXpath("//*[text()='Mark Patient Arrived']");
+		//driver.findElement(By.xpath("//*[text()='Mark Patient Arrived']")).click();
+		logger.info("User marked as Patient Arrived");
+		expwait("//*[text()='Select Token']");
+		driver.findElement(By.xpath("//*[text()='Skip Without Token']")).click();
+		logger.info("User Skipped without Token");
+		expwait("//*[text()='Template Details']");
+		driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+		/*List<WebElement> template=driver.findElements(By.xpath("//*[@aria-labelledby='opd-templates-dropdown']/..//li"));
+		for(int i=0;i<template.size();i++)
+		{
+			logger.info("List of Template Details under 'New' button :"+ template.get(i).getText());
+			
+				if(template.contains("Eye")) {
+					template.get(i).click();
+					logger.info("User Selected Eye Template in if block");
+				}
+		else
+			{
+				logger.info("User not Selected Eye Template");
+			}		*/
+		
+		driver.findElement(By.xpath("//a[@data_templatetype='eye']")).click();
+		logger.info("User Selected Eye Template");
+		expwait("//li[@id='assesment_step']");
+		
+	}
+	@Then("^validate created Opthal Set should display in Investigation tab under Eye Template \"([^\"]*)\"$")
+	public void validate_created_Opthal_Set_should_display_in_Investigation_tab_under_Eye_Template(String SetName ) throws Throwable 
+	{
+		List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+		if(OpthalSets.contains(SetName)) {
+			logger.info("Created Opthal Set:" + SetName + " is present in Eye Template Opthal Set");
+		}else {
+			logger.info("Created Opthal Set:" + SetName + " is not present in Eye Template Opthal Set");
+		}
+		
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User closed Eye Template after validation");
+		
+	}
+	
+	@Then("^validate created Opthal Set should display in Investigation tab under QuickEye Template \"([^\"]*)\"$")
+	public void validate_created_Opthal_Set_should_display_in_Investigation_tab_under_QuickEye_Template(String SetName) throws Throwable 
+	{
+		expwait("//*[text()='Template Details']");
+		driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+		
+		driver.findElement(By.xpath("//a[@data_templatetype='quickeye']")).click();
+		logger.info("User Selected Quick Eye Template");
+		expwait("//li[@id='assesment_step']");
+		
+		List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+		if(OpthalSets.contains(SetName)) {
+			logger.info("Created Opthal Set:" + SetName + " is present in Quick Eye Template Opthal Set");
+		}else {
+			logger.info("Created Opthal Set:" + SetName + " is not present in Quick Eye Template Opthal Set");
+		}
+		
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User closed Quick Eye Template after validation");
+	}
+
+	@Then("^validate created Opthal Set should display in Investigation tab under Lens Template \"([^\"]*)\"$")
+	public void validate_created_Opthal_Set_should_display_in_Investigation_tab_under_Lens_Template(String SetName) throws Throwable 
+	{
+		expwait("//*[text()='Template Details']");
+		driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+		expwait("//a[@data_templatetype='lens']");
+		clickElementByXpath("//a[@data_templatetype='lens']");
+		logger.info("User Selected Lens Template");
+		expwait("//li[@id='assesment_step']");
+		
+		List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+		if(OpthalSets.contains(SetName)) {
+			logger.info("Created Opthal Set:" + SetName + " is present in Lens Template Opthal Set");
+		}else {
+			logger.info("Created Opthal Set:" + SetName + " is not present in Lens Template Opthal Set");
+		}
+		
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User closed Lens Template after validation");
+	}
+
+	@Then("^validate created Opthal Set should display in Investigation tab under Pediatrics Template \"([^\"]*)\"$")
+	public void validate_created_Opthal_Set_should_display_in_Investigation_tab_under_Pediatrics_Template(String SetName) throws Throwable 
+	{
+		expwait("//*[text()='Template Details']");
+		driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+		expwait("//a[@data_templatetype='paediatrics']");
+		clickElementByXpath("//a[@data_templatetype='paediatrics']");
+		logger.info("User Selected Lens Template");
+		expwait("//li[@id='assesment_step']");
+		
+		List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+		if(OpthalSets.contains(SetName)) {
+			logger.info("Created Opthal Set:" + SetName + " is present in Pediatrics Template Opthal Set");
+		}else {
+			logger.info("Created Opthal Set:" + SetName + " is not present in Pediatrics Template Opthal Set");
+		}
+		
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User closed Pediatrics Template after validation");
+	}
+
+	@Then("^validate created Opthal Set should display in Investigation tab under OrthopticsTemplate \"([^\"]*)\"$")
+	public void validate_created_Opthal_Set_should_display_in_Investigation_tab_under_OrthopticsTemplate(String SetName) throws Throwable 
+	{
+		expwait("//*[text()='Template Details']");
+		driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+		expwait("//a[@data_templatetype='orthoptics']");
+		clickElementByXpath("//a[@data_templatetype='orthoptics']");
+		logger.info("User Selected orthoptics Template");
+		expwait("//li[@id='assesment_step']");
+		
+		List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+		if(OpthalSets.contains(SetName)) {
+			logger.info("Created Opthal Set:" + SetName + " is present in Orthoptics Template Opthal Set");
+		}else {
+			logger.info("Created Opthal Set:" + SetName + " is not present in Orthoptics Template Opthal Set");
+		}
+		
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User closed Orthoptics Template after validation");
+	}
+
+	@Then("^validate created Opthal Set should display in Investigation tab under Trauma  Template \"([^\"]*)\"$")
+	public void validate_created_Opthal_Set_should_display_in_Investigation_tab_under_Trauma_Template(String SetName) throws Throwable
+	{
+		expwait("//*[text()='Template Details']");
+		driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+		expwait("//a[@data_templatetype='trauma']");
+		clickElementByXpath("//a[@data_templatetype='trauma']");
+		logger.info("User Selected Trauma Template");
+		expwait("//li[@id='assesment_step']");
+		
+		List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+		if(OpthalSets.contains(SetName)) {
+			logger.info("Created Opthal Set:" + SetName + " is present in Trauma Template Opthal Set");
+		}else {
+			logger.info("Created Opthal Set:" + SetName + " is not present in Trauma Template Opthal Set");
+		}
+		
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User closed Trauma Template after validation");
+	}
+
+	@Then("^validate created Opthal Set should display in Investigation tab under Free Form Template \"([^\"]*)\"$")
+	public void validate_created_Opthal_Set_should_display_in_Investigation_tab_under_Free_Form_Template(String SetName) throws Throwable 
+	{
+		expwait("//*[text()='Template Details']");
+		driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+		expwait("//a[@data_templatetype='freeform']");
+		clickElementByXpath("//a[@data_templatetype='freeform']");
+		logger.info("User Selected Trauma Template");
+		expwait("//li[@id='assesment_step']");
+		
+		List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+		if(OpthalSets.contains(SetName)) {
+			logger.info("Created Opthal Set:" + SetName + " is present in Free Form Template Opthal Set");
+		}else {
+			logger.info("Created Opthal Set:" + SetName + " is not present in Free Form Template Opthal Set");
+		}
+		
+		driver.findElement(By.xpath("//button[text()='Close']")).click();
+		logger.info("User closed Free Form Template after validation");
+	}
+	
+	
+	///////////////////////////////               Radilogy Set            ////////////////////////////////////
+	
+	
+
+@Then("^click on Radilogy Sets and validate each tab$")
+public void click_on_Radilogy_Sets_and_validate_each_tab() throws Throwable
+{
+	driver.findElement(By.xpath("//a[@id='radiology_sets_id']")).click();
+	logger.info("User click on Radiology Set tab under clinical");
 }
+
+@When("^create Radiology Set \"([^\"]*)\"$")
+public void create_Radiology_Set(String SetName1) throws Throwable
+{
+  expwait("//a[@class='btn btn-success']");
+  driver.findElement(By.xpath("//a[@class='btn btn-success']")).click();
+  logger.info("User click on 'Radiology Lab Set' button for creating a new Radiology Set");
+  expwait("//*[text()='New Radiology Laboratory Set']");
+  driver.findElement(By.xpath("//input[@id='radiology_laboratory_set_name']")).sendKeys(SetName1);
+  List<WebElement> XRay = driver.findElements(By.xpath("//select[@id='topradiologyinvestigation_xray']/..//option"));
+  for(int i=0;i<XRay.size()-1;i++) {
+		String XRay_List = XRay.get(i).getText();
+		logger.info("List of values under X-Ray are:" + XRay_List);
+		XRay.get(i).click();
+		}
+  
+  List<WebElement> MRI = driver.findElements(By.xpath("//select[@id='topradiologyinvestigation_mri']/..//option"));
+  for(int i=0;i<MRI.size()-1;i++) {
+		String MRI_List = MRI.get(i).getText();
+		logger.info("List of values under MRI are:" + MRI_List);
+		MRI.get(i).click();
+		}
+
+   Assert.assertEquals(driver.findElement(By.id("RadiologyRadio1")).isSelected(),true);
+   logger.info(" 'Standard Investigations' radio button is by default selected ");
+   driver.findElement(By.xpath("//label[text()='Custom Investigations']")).click();
+   logger.info(" User clicked on 'Custom Investigations' radio button");
+   
+   List<WebElement> Invesigations = driver.findElements(By.xpath("//select[@id='custom_investigations']/..//option"));
+   for(int i=0;i<Invesigations.size()-1;i++) {
+ 		String Invesigations_List = Invesigations.get(i).getText();
+ 		logger.info("List of values under Invesigations are:" + Invesigations_List);
+ 		Invesigations.get(i).click();
+ 		}
+ driver.findElement(By.xpath("(//input[@name=\"commit\"])[2]")).click();
+ logger.info("User Successfully created one Radiology Set having name:" + SetName1);
+   
+}
+
+@Then("^verify created Radiology Set name should display in Radiology Lab Sets \"([^\"]*)\"$")
+public void verify_created_Radiology_Set_name_should_display_in_Radiology_Lab_Sets(String SetName1) throws Throwable
+{
+	System.out.println(SetName1);
+	normalWait(5000);
+    driver.findElement(By.xpath("//input[@type='text' and @aria-controls='radiology-set-list']")).sendKeys(SetName1);
+    normalWait(10000);
+	String search_result = driver.findElement(By.xpath("//div[@id='radiology-set-list_info']")).getText();
+	System.out.println(search_result);
+	System.out.println(search_result.length());
+	System.out.println(search_result.substring(13, 14));///13 14
+	/*int count = Integer.parseInt(search_result.substring(13, 14));
+	if(count > 0) {
+		
+	}*/
+	
+	
+}
+
+@When("^user deleted that Radiology Set name its should not display in Radiology Lab Sets \"([^\"]*)\"$")
+public void user_deleted_that_Radiology_Set_name_its_should_not_display_in_Radiology_Lab_Sets(String SetName1) throws Throwable
+{
+ expwait("//tbody[@role='alert']/tr[1]/td/span/a[@data-method='delete']");
+ driver.findElement(By.xpath("//tbody[@role='alert']/tr[1]/td/span/a[@data-method='delete']")).click();
+ normalWait(500);
+ driver.findElement(By.xpath("//button[@class='btn commit btn-danger']")).click();
+ logger.info("User successfully deleted the Set");
+}
+
+@Then("^create again new Radiology Set \"([^\"]*)\"$")
+public void create_again_new_Radiology_Set(String SetName) throws Throwable
+{
+	expwait("//a[@class='btn btn-success']");
+	  driver.findElement(By.xpath("//a[@class='btn btn-success']")).click();
+	  logger.info("User click on 'Radiology Lab Set' button for creating a new Radiology Set");
+	  expwait("//*[text()='New Radiology Laboratory Set']");
+	  driver.findElement(By.xpath("//input[@id='radiology_laboratory_set_name']")).sendKeys(SetName);
+	  List<WebElement> XRay = driver.findElements(By.xpath("//select[@id='topradiologyinvestigation_xray']/..//option"));
+	  for(int i=0;i<XRay.size()-1;i++) {
+			String XRay_List = XRay.get(i).getText();
+			logger.info("List of values under X-Ray are:" + XRay_List);
+			XRay.get(i).click();
+			}
+	  
+	  List<WebElement> MRI = driver.findElements(By.xpath("//select[@id='topradiologyinvestigation_mri']/..//option"));
+	  for(int i=0;i<MRI.size()-1;i++) {
+			String MRI_List = MRI.get(i).getText();
+			logger.info("List of values under MRI are:" + MRI_List);
+			MRI.get(i).click();
+			}
+
+	   Assert.assertEquals(driver.findElement(By.id("RadiologyRadio1")).isSelected(),true);
+	   logger.info(" 'Standard Investigations' radio button is by default selected ");
+	   driver.findElement(By.xpath("//label[text()='Custom Investigations']")).click();
+	   logger.info(" User clicked on 'Custom Investigations' radio button");
+	   
+	   List<WebElement> Invesigations = driver.findElements(By.xpath("//select[@id='custom_investigations']/..//option"));
+	   for(int i=0;i<Invesigations.size()-1;i++) {
+	 		String Invesigations_List = Invesigations.get(i).getText();
+	 		logger.info("List of values under Invesigations are:" + Invesigations_List);
+	 		Invesigations.get(i).click();
+	 		}
+	 driver.findElement(By.xpath("(//input[@name=\"commit\"])[2]")).click();
+	 logger.info("User Successfully created one Radiology Set having name:" + SetName);
+	   
+}
+
+@Then("^validate created Radiology Set should display in Investigation tab under Eye Template \"([^\"]*)\"$")
+public void validate_created_Radiology_Set_should_display_in_Investigation_tab_under_Eye_Template(String SetName) throws Throwable
+{
+	List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+	if(OpthalSets.contains(SetName)) {
+		logger.info("Created Radiology Set:" + SetName + " is present in Eye Template Opthal Set");
+	}else {
+		logger.info("Created Radiology Set:" + SetName + " is not present in Eye Template Opthal Set");
+	}
+	
+	driver.findElement(By.xpath("//button[text()='Close']")).click();
+	logger.info("User closed Eye Template after validation");
+}
+
+@Then("^validate created Radiology Set should display in Investigation tab under QuickEye Template \"([^\"]*)\"$")
+public void validate_created_Radiology_Set_should_display_in_Investigation_tab_under_QuickEye_Template(String SetName) throws Throwable
+{
+	expwait("//*[text()='Template Details']");
+	driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+	
+	driver.findElement(By.xpath("//a[@data_templatetype='quickeye']")).click();
+	logger.info("User Selected Quick Eye Template");
+	expwait("//li[@id='assesment_step']");
+	
+	List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='radiology_set']/option"));
+	if(OpthalSets.contains(SetName)) {
+		logger.info("Created Radiology Set:" + SetName + " is present in Quick Eye Template Opthal Set");
+	}else {
+		logger.info("Created Radiology Set:" + SetName + " is not present in Quick Eye Template Opthal Set");
+	}
+	
+	driver.findElement(By.xpath("//button[text()='Close']")).click();
+	logger.info("User closed Quick Eye Template after validation");
+}
+
+@Then("^validate created Radiology Set should display in Investigation tab under Lens Template \"([^\"]*)\"$")
+public void validate_created_Radiology_Set_should_display_in_Investigation_tab_under_Lens_Template(String SetName) throws Throwable 
+{
+	expwait("//*[text()='Template Details']");
+	driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+	expwait("//a[@data_templatetype='lens']");
+	clickElementByXpath("//a[@data_templatetype='lens']");
+	logger.info("User Selected Lens Template");
+	expwait("//li[@id='assesment_step']");
+	
+	List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+	if(OpthalSets.contains(SetName)) {
+		logger.info("Created Radiology Set:" + SetName + " is present in Lens Template Opthal Set");
+	}else {
+		logger.info("Created Radiology Set:" + SetName + " is not present in Lens Template Opthal Set");
+	}
+	
+	driver.findElement(By.xpath("//button[text()='Close']")).click();
+	logger.info("User closed Lens Template after validation");
+}
+
+@Then("^validate created Radiology Set should display in Investigation tab under Pediatrics Template \"([^\"]*)\"$")
+public void validate_created_Radiology_Set_should_display_in_Investigation_tab_under_Pediatrics_Template(String SetName) throws Throwable
+{
+	expwait("//*[text()='Template Details']");
+	driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+	expwait("//a[@data_templatetype='paediatrics']");
+	clickElementByXpath("//a[@data_templatetype='paediatrics']");
+	logger.info("User Selected Lens Template");
+	expwait("//li[@id='assesment_step']");
+	
+	List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+	if(OpthalSets.contains(SetName)) {
+		logger.info("Created Radiology Set:" + SetName + " is present in Pediatrics Template Opthal Set");
+	}else {
+		logger.info("Created Radiology Set:" + SetName + " is not present in Pediatrics Template Opthal Set");
+	}
+	
+	driver.findElement(By.xpath("//button[text()='Close']")).click();
+	logger.info("User closed Pediatrics Template after validation");
+}
+
+@Then("^validate created Radiology Set should display in Investigation tab under OrthopticsTemplate \"([^\"]*)\"$")
+public void validate_created_Radiology_Set_should_display_in_Investigation_tab_under_OrthopticsTemplate(String SetName) throws Throwable 
+{
+	expwait("//*[text()='Template Details']");
+	driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+	expwait("//a[@data_templatetype='orthoptics']");
+	clickElementByXpath("//a[@data_templatetype='orthoptics']");
+	logger.info("User Selected orthoptics Template");
+	expwait("//li[@id='assesment_step']");
+	
+	List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+	if(OpthalSets.contains(SetName)) {
+		logger.info("Created Radiology Set:" + SetName + " is present in Orthoptics Template Opthal Set");
+	}else {
+		logger.info("Created Radiology Set:" + SetName + " is not present in Orthoptics Template Opthal Set");
+	}
+	
+	driver.findElement(By.xpath("//button[text()='Close']")).click();
+	logger.info("User closed Orthoptics Template after validation");
+}
+
+@Then("^validate created Radiology Set should display in Investigation tab under Trauma  Template \"([^\"]*)\"$")
+public void validate_created_Radiology_Set_should_display_in_Investigation_tab_under_Trauma_Template(String SetName) throws Throwable
+{
+	expwait("//*[text()='Template Details']");
+	driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+	expwait("//a[@data_templatetype='trauma']");
+	clickElementByXpath("//a[@data_templatetype='trauma']");
+	logger.info("User Selected Trauma Template");
+	expwait("//li[@id='assesment_step']");
+	List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+	if(OpthalSets.contains(SetName)) {
+		logger.info("Created Radiology Set:" + SetName + " is present in Trauma Template Opthal Set");
+	}else {
+		logger.info("Created Radiology Set:" + SetName + " is not present in Trauma Template Opthal Set");
+	}
+	
+	driver.findElement(By.xpath("//button[text()='Close']")).click();
+	logger.info("User closed Trauma Template after validation");
+}
+
+@Then("^validate created Radiology Set should display in Investigation tab under Free Form Template \"([^\"]*)\"$")
+public void validate_created_Radiology_Set_should_display_in_Investigation_tab_under_Free_Form_Template(String SetName) throws Throwable
+{
+	expwait("//*[text()='Template Details']");
+	driver.findElement(By.xpath("//button[@id='opd-templates']")).click();
+	expwait("//a[@data_templatetype='freeform']");
+	clickElementByXpath("//a[@data_templatetype='freeform']");
+	logger.info("User Selected Free Form Template");
+	expwait("//a[text()='Investigation']");
+	List<WebElement> OpthalSets = driver.findElements(By.xpath("//select[@id='ophthal_set']"));
+	if(OpthalSets.contains(SetName)) {
+		logger.info("Created Radiology Set:" + SetName + " is present in Free Form Template Opthal Set");
+	}else {
+		logger.info("Created Radiology Set:" + SetName + " is not present in Free Form Template Opthal Set");
+	}
+	
+	driver.findElement(By.xpath("//button[text()='Close']")).click();
+	logger.info("User closed Free Form Template after validation");
+}
+}
+
+	
+

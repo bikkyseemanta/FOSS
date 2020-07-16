@@ -87,3 +87,48 @@ Examples:
 |ProcedureName1 | ProcedureNote1 | ProcedureName |ProcedureNote |
 |Test Procedure | Test Note      | Biswajit Note | Biswajit Note|
 
+
+@VerifyOpthalSets
+Scenario Outline: Opthal Sets under Clinical
+And clicks on Clinical from the left panel menu 
+Then click on Opthal Sets and validate each tab
+When create Opthal Lab Set "<SetName1>" 
+Then verify created Opthal Set name should display in Procedure Notes "<SetName>"
+When user deleted that Opthal Set name its should not display under template "<SetName>"
+#Then create again new Opthal Set "<SetName>" 
+Then navigate to OPD and create one Appointment
+When mark patient as Arrived go to Investigation tab under Eye Template 
+Then validate created Opthal Set should display in Investigation tab under Eye Template "<SetName>"
+Then validate created Opthal Set should display in Investigation tab under QuickEye Template "<SetName>"
+Then validate created Opthal Set should display in Investigation tab under Lens Template "<SetName>"
+Then validate created Opthal Set should display in Investigation tab under Pediatrics Template "<SetName>"
+Then validate created Opthal Set should display in Investigation tab under OrthopticsTemplate "<SetName>"
+Then validate created Opthal Set should display in Investigation tab under Trauma  Template "<SetName>"
+Then validate created Opthal Set should display in Investigation tab under Free Form Template "<SetName>"
+
+Examples:
+|SetName1        | SetName                  | 
+|Opthal Set Test | Biswajit Opthal Set      |
+
+
+@VerifyRadiologySets
+Scenario Outline: Radiology Sets under Clinical
+And clicks on Clinical from the left panel menu 
+Then click on Radilogy Sets and validate each tab
+When create Radiology Set "<SetName1>" 
+Then verify created Radiology Set name should display in Radiology Lab Sets "<SetName1>"
+When user deleted that Radiology Set name its should not display in Radiology Lab Sets "<SetName1>"
+Then create again new Radiology Set "<SetName>" 
+Then navigate to OPD and create one Appointment
+When mark patient as Arrived go to Investigation tab under Eye Template 
+Then validate created Radiology Set should display in Investigation tab under Eye Template "<SetName>"
+#Then validate created Radiology Set should display in Investigation tab under QuickEye Template "<SetName>"
+#Then validate created Radiology Set should display in Investigation tab under Lens Template "<SetName>"
+#Then validate created Radiology Set should display in Investigation tab under Pediatrics Template "<SetName>"
+#Then validate created Radiology Set should display in Investigation tab under OrthopticsTemplate "<SetName>"
+#Then validate created Radiology Set should display in Investigation tab under Trauma  Template "<SetName>"
+#Then validate created Radiology Set should display in Investigation tab under Free Form Template "<SetName>"
+
+Examples:
+|SetName1           | SetName               | 
+|Radiology Set Test | Biswajit Radiology Set|
